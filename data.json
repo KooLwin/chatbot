@@ -1,0 +1,56 @@
+[
+    {
+        "keywords": ["အလင်း", "သဘောတရား", "လှိုင်း", "ရှင်းပြ"],
+        "answer_my": "အလင်းဆိုတာ လျှပ်စစ်သံလိုက်လှိုင်းတစ်မျိုးဖြစ်ပြီး ၃×၁၀⁸ m/s နှုန်းဖြင့် သွားလာသည်။ အလင်းတွင် လှိုင်းအလျား၊ ကြိမ်နှုန်းနှင့် စွမ်းအင်တို့ ပါဝင်သည်။",
+        "answer_th": "แสงคือคลื่นแม่เหล็กไฟฟ้าชนิดหนึ่งซึ่งเดินทางด้วยความเร็ว 3×10⁸ m/s แสงประกอบด้วยความยาวคลื่น ความถี่ และพลังงาน",
+        "answer_en": "Light is a type of electromagnetic wave that travels at 3×10⁸ m/s. Light consists of wavelength, frequency, and energy."
+    },
+    {
+        "keywords": ["အလင်း", "သဘောတရား"],
+        "answer_my": "အလင်းသဘောတရားကတော့ မြင်တွေ့နေရတဲ့အရာကို ဆိုလိုသည်။ အလင်းသည် မျက်စိဖြင့်မြင်နိုင်သော လျှပ်စစ်သံလိုက်ဓာတ်ရောင်ခြည် အမျိုးအစားဖြစ်သည်။",
+        "answer_th": "หลักการของแสงหมายถึงสิ่งที่มองเห็นได้ แสงเป็นรังสีแม่เหล็กไฟฟ้าชนิดหนึ่งที่มองเห็นได้ด้วยตา",
+        "answer_en": "The principle of light refers to what is visible. Light is a type of electromagnetic radiation visible to the human eye."
+    },
+    {
+        "keywords": ["လှိုင်း"],
+        "answer_my": "လှိုင်းတွင် ရေလှိုင်း၊ လေလှိုင်း၊ အသံလှိုင်းစသဖြင့် အမျိုးအစားများစွာရှိပါတယ်။ လှိုင်းဆိုတာ စွမ်းအင်ကို တစ်နေရာမှ တစ်နေရာသို့ သယ်ဆောင်ပေးသော ဖြစ်စဉ်တစ်ခုဖြစ်သည်။",
+        "answer_th": "คลื่นมีหลายประเภท เช่น คลื่นน้ำ คลื่นลม คลื่นเสียง คลื่นคือกระบวนการที่นำพาพลังงานจากที่หนึ่งไปยังอีกที่หนึ่ง",
+        "answer_en": "Waves include water waves, wind waves, sound waves, and many more. A wave is a process that carries energy from one place to another."
+    },
+    {
+        "keywords": ["အက်တမ်", "မော်လီကျူး", "ရှင်းပြ"],
+        "answer_my": "အက်တမ်ဆိုတာ ဒြပ်စင်တစ်ခု၏ အငယ်ဆုံးအမှုန်ဖြစ်ပြီး ပရိုတွန်၊ နျူထရွန်နှင့် အီလက်ထရွန်တို့ ပါဝင်သည်။ အက်တမ်များ ပေါင်းစည်းခြင်းဖြင့် မော်လီကျူးများ ဖြစ်ပေါ်လာသည်။",
+        "answer_th": "อะตอมคืออนุภาคที่เล็กที่สุดของธาตุหนึ่ง ประกอบด้วยโปรตอน นิวตรอน และอิเล็กตรอน การรวมตัวของอะตอมทำให้เกิดโมเลกุล",
+        "answer_en": "An atom is the smallest particle of an element, consisting of protons, neutrons, and electrons. Atoms combine to form molecules."
+    },
+    {
+        "keywords": ["အက်တမ်", "မော်လီကျူး"],
+        "answer_my": "အက်တမ်နဲ့ မော်လီကျူးတို့သည် ဓာတုဗေဒ၏ အခြေခံ အဆောက်အဦးများဖြစ်သည်။ အက်တမ်များ ဓာတုနှောင်ကြိုးဖြင့် ချိတ်ဆက်ပြီး မော်လီကျူးများ ဖြစ်ပေါ်လာသည်။",
+        "answer_th": "อะตอมและโมเลกุลเป็นพื้นฐานของเคมี อะตอมเชื่อมต่อกันด้วยพันธะเคมีเพื่อสร้างโมเลกุล",
+        "answer_en": "Atoms and molecules are the building blocks of chemistry. Atoms connect through chemical bonds to form molecules."
+    },
+    {
+        "keywords": ["အက်တမ်"],
+        "answer_my": "အက်တမ်ဆိုတာ ဒြပ်စင်တစ်ခု၏ အငယ်ဆုံးအမှုန်ဖြစ်သည်။ အက်တမ်တွင် အီလက်ထရွန်ခွံများဖြင့် ဝန်းရံထားသော နျူကလိယပါဝင်သည်။",
+        "answer_th": "อะตอมคืออนุภาคที่เล็กที่สุดของธาตุ ประกอบด้วยนิวเคลียสที่ล้อมรอบด้วยเปลือกอิเล็กตรอน",
+        "answer_en": "An atom is the smallest particle of an element. It consists of a nucleus surrounded by electron shells."
+    },
+    {
+        "keywords": ["သင်္ချာ", "ညီမျှခြင်း"],
+        "answer_my": "ညီမျှခြင်းဆိုတာ ကိန်းရှင်နှစ်ခု သို့မဟုတ် ထို့ထက်ပိုသော ကိန်းရှင်များပါဝင်သည့် သင်္ချာဆိုင်ရာ ဖော်ပြချက်တစ်ခုဖြစ်သည်။",
+        "answer_th": "สมการคือนิพจน์ทางคณิตศาสตร์ที่มีตัวแปรสองตัวหรือมากกว่า",
+        "answer_en": "An equation is a mathematical expression containing two or more variables."
+    },
+    {
+        "keywords": ["ညီမျှခြင်း"],
+        "answer_my": "ညီမျှခြင်းဆိုတာ သင်္ချာမှာ ကိန်းရှင်များပါဝင်သော ဝါကျတစ်ခုဖြစ်ပြီး ညီမျှခြင်းကို ဖြေရှင်းခြင်းအားဖြင့် ကိန်းရှင်၏ တန်ဖိုးကို ရှာဖွေနိုင်သည်။",
+        "answer_th": "สมการคือประโยคทางคณิตศาสตร์ที่มีตัวแปร การแก้สมการสามารถหาค่าของตัวแปรได้",
+        "answer_en": "An equation is a mathematical sentence containing variables. Solving an equation finds the value of the variables."
+    },
+    {
+        "keywords": ["မြန်မာစာ"],
+        "answer_my": "မြန်မာစာသည် မြန်မာနိုင်ငံ၏ ရုံးသုံးဘာသာစကားဖြစ်ပြီး တိဗက်-ဗမာနွယ် ဘာသာစကားအုပ်စုဝင်ဖြစ်သည်။",
+        "answer_th": "ภาษาพม่าเป็นภาษาราชการของประเทศพม่า อยู่ในกลุ่มภาษาทิเบต-พม่า",
+        "answer_en": "Burmese is the official language of Myanmar and belongs to the Tibeto-Burman language family."
+    }
+]
