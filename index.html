@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Kreative Kid's Lab - Chatbot</title>
     <style>
-        /* ... (မူရင်း CSS အတိုင်းထားပါ) ... */
         * {
             margin: 0;
             padding: 0;
@@ -718,55 +717,29 @@
 
     <script>
         // =============================================
-        // 📊 1. Configuration
+        // 📊 1. Configuration & State
         // =============================================
 
-        const GITHUB_DATA_URL = 'https://raw.githubusercontent.com/KooLwin/chatbot/refs/heads/main/data.json';
         const STORAGE_KB_KEY = 'knowledge_base_data';
         const STORAGE_CHAT_KEY = 'chat_history_kkl';
-        const STORAGE_LAST_UPDATE_KEY = 'last_update_time';
 
         let knowledgeBase = [];
         let isDataLoaded = false;
         let isSpeechMuted = false;
+        let dataLoadAttempted = false;
 
         // =============================================
-        // 📂 2. Data Structure Explanation
+        // 📦 2. Default Knowledge Base (Fallback)
         // =============================================
-        /*
-            📁 DATA STRUCTURE (data.json)
-            ==============================
-            
-            JSON Array တစ်ခုဖြစ်ပြီး Object များပါဝင်ပါသည်။
-            
-            [
-                {
-                    "keywords": ["keyword1", "keyword2", "keyword3"],
-                    "answer": "အဖြေစာသား"
-                },
-                {
-                    "keywords": ["ကွန်ပျူတာ", "အသုံးပြု"],
-                    "answer": "ကွန်ပျူတာကို ဤသို့အသုံးပြုပါ..."
-                }
-            ]
 
-            📌 Keywords (စာသားများ)
-            - Array တစ်ခုဖြစ်ပြီး မေးခွန်းထဲမှာ ပါရမည့် စာသားများကို သတ်မှတ်ပါသည်။
-            - မေးခွန်းထဲမှာ ဤစာသားများ ပါဝင်ပါက သက်ဆိုင်ရာ အဖြေကို ပြန်ပေးပါမည်။
-            
-            📌 Answer (အဖြေ)
-            - မေးခွန်းနှင့် ကိုက်ညီပါက ပြန်ပေးမည့် အဖြေစာသား။
-            - HTML tags ( <br>, <b>, <span> ) များကို သုံးနိုင်ပါသည်။
-            
-            📝 ဥပမာ:
-            {
-                "keywords": ["မောက်စ်", "အသုံးပြုပုံ"],
-                "answer": "မောက်စ်ကို ညွှန်ပြရန် နှင့် ကလစ်နှိပ်ရန် အသုံးပြုပါသည်။"
-            }
-        */
+        const defaultKnowledgeBase = [
+            { keywords: ["မင်္ဂလာပါ"], answer: "မင်္ဂလာပါခင်ဗျာ.." },
+            { keywords: ["အကြံပြု"], answer: "ကလေးအသက်ပေါ်မူတည်ပြီး အကြံပြုပေးပါမယ်။\n\n📌 ၂-၄နှစ် → Phonics သင်နည်းလမ်းညွှန် (မိဘအတွက်) + Pre KG English\n📌 ၅-၇နှစ် → Start to Read + Reading Fun\n📌 ၈-၁၀နှစ် → Read & Learn + Little Explore\n📌 ၁၀နှစ်အထက် → English Bridge + Spoken English + Computer Science\n\nကလေးအသက်ကို ပြောပါ၊ ပိုပြီးတိကျတဲ့ အကြံပြုချက် ရနိုင်ပါတယ်။" },
+            { keywords: ["စာအုပ်", "စာရင်း"], answer: "Kreative Kid's Lab ရဲ့ စုပ်စာရင်းတွေ...\n\n📖 Pre KG English (၃အုပ်)\n📖 English Bridge (Student + Teacher Guide)\n📖 Spoken English\n📖 Computer Science (Level 1-4)\n📖 Phonics သင်နည်းလမ်းညွှန်\n📖 Start to Read (၆အုပ်)\n📖 Reading Fun (၆အုပ်)\n📖 Read & Learn (၆အုပ်)\n📖 Little Explore (၆အုပ်)" }
+        ];
 
         // =============================================
-        // 🔄 3. Load Knowledge Base (Local file only)
+        // 🔄 3. Load Knowledge Base (local data.json only)
         // =============================================
 
         function updateStatus(text, isOnline = true) {
@@ -795,166 +768,70 @@
             return false;
         }
 
-        function saveToLocalStorage(data) {
-            try {
-                localStorage.setItem(STORAGE_KB_KEY, JSON.stringify(data));
-                localStorage.setItem(STORAGE_LAST_UPDATE_KEY, new Date().toISOString());
-                knowledgeBase = data;
-                isDataLoaded = true;
-                updateStatus('✅ ဒေတာ သိမ်းဆည်းပြီးပါပြီ');
-                return true;
-            } catch (e) {
-                console.warn('⚠️ Failed to save to localStorage:', e);
-                return false;
-            }
+        function loadDefaultData() {
+            knowledgeBase = [...defaultKnowledgeBase];
+            localStorage.setItem(STORAGE_KB_KEY, JSON.stringify(knowledgeBase));
+            isDataLoaded = true;
+            updateStatus('📝 ပုံသေဒေတာ');
         }
 
-        // 📂 Load from local data.json file (USING DIRECT FETCH)
-        async function loadFromLocalFile() {
+        // 🔥 Main: load local data.json via fetch (relative path)
+        async function loadLocalDataJson() {
+            if (dataLoadAttempted) return;
+            dataLoadAttempted = true;
+
             try {
-                updateStatus('📂 ဒေသတွင်း data.json ကိုဖတ်နေပါသည်...');
+                updateStatus('🔄 data.json ဖတ်နေပါသည်...');
 
-                // Try to load from the same directory as the HTML file
-                const response = await fetch('data.json', {
-                    cache: 'no-store',
-                    headers: {
-                        'Accept': 'application/json'
-                    }
-                });
-
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status} - File not found or inaccessible`);
-                }
-
-                const data = await response.json();
-
-                if (!Array.isArray(data) || data.length === 0) {
-                    throw new Error('Invalid data format - Expected array with objects');
-                }
-
-                // Validate data structure
-                let validCount = 0;
-                data.forEach((item, index) => {
-                    if (item.keywords && Array.isArray(item.keywords) && item.answer) {
-                        validCount++;
-                    } else {
-                        console.warn(`⚠️ Item ${index} has invalid structure:`, item);
-                    }
-                });
-
-                if (validCount === 0) {
-                    throw new Error('No valid items found in data.json');
-                }
-
-                // Save to localStorage
-                saveToLocalStorage(data);
-                console.log('📂 Loaded from local data.json:', data.length, 'entries,', validCount, 'valid');
-                addMessage(`📂 data.json မှ ဒေတာ ${data.length} ခုကို ဖတ်ပြီးပါပြီ။`, 'bot');
-                return true;
-
-            } catch (error) {
-                console.error('⚠️ Local file load failed:', error.message);
-                updateStatus('⚠️ data.json မတွေ့ပါ', false);
-                
-                // Show detailed error in chat
-                addMessage(`❌ data.json ဖိုင်ကို မဖတ်နိုင်ပါ။<br><br>🔍 အကြောင်းရင်း: ${error.message}<br><br>💡 ဖြေရှင်းနည်းများ:<br>1. data.json ဖိုင် ရှိမရှိ စစ်ဆေးပါ<br>2. JSON ဖိုင်ရဲ့ ပုံစံမှန်ကန်မှု စစ်ဆေးပါ<br>3. Web Server သုံး၍ Run ပါ (Live Server သို့မဟုတ် XAMPP)`, 'bot');
-                return false;
-            }
-        }
-
-        // 🌐 Load from GitHub (Auto Update)
-        async function loadFromGitHub() {
-            try {
-                if (!navigator.onLine) {
-                    updateStatus('📶 အင်တာနက်မရှိပါ', false);
-                    return false;
-                }
-
-                updateStatus('🔄 GitHub မှ စစ်ဆေးနေပါသည်...');
-
-                const controller = new AbortController();
-                const timeoutId = setTimeout(() => controller.abort(), 10000);
-
-                const response = await fetch(GITHUB_DATA_URL, {
-                    cache: 'no-cache',
-                    headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' },
-                    signal: controller.signal
-                });
-
-                clearTimeout(timeoutId);
-
+                const response = await fetch('data.json', { cache: 'no-store' });
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}`);
                 }
 
                 const data = await response.json();
-
                 if (!Array.isArray(data) || data.length === 0) {
                     throw new Error('Invalid data format');
                 }
 
-                // Check if data has changed
-                const saved = localStorage.getItem(STORAGE_KB_KEY);
-                let hasChanged = true;
+                // Convert from 'Keywords' + 'answer_my' to unified { keywords, answer }
+                const converted = data.map(item => {
+                    const answer = item.answer_my || item.answer_th || item.answer_en || 
+                                   'ကျေးဇူးပြု၍ ပြန်လည်စစ်ဆေးပါ။';
+                    return {
+                        keywords: Array.isArray(item.Keywords) ? item.Keywords : [],
+                        answer: answer
+                    };
+                }).filter(item => item.keywords.length > 0 && item.answer);
 
-                if (saved) {
-                    try {
-                        const savedData = JSON.parse(saved);
-                        if (JSON.stringify(savedData) === JSON.stringify(data)) {
-                            hasChanged = false;
-                            console.log('✅ Data is up to date (no changes)');
-                            updateStatus('✅ ဒေတာ နောက်ဆုံးပေါ်ဖြစ်ပါသည်');
-                            return false;
-                        }
-                    } catch (e) {}
+                if (converted.length === 0) {
+                    throw new Error('No valid entries after conversion');
                 }
 
-                if (hasChanged) {
-                    saveToLocalStorage(data);
-                    console.log('🔄 Data updated from GitHub:', data.length, 'entries');
-                    addMessage(`🔄 GitHub မှ သင်ရိုးဒေတာ ${data.length} ခုကို အသစ်ပြန်လည်ပြီးပါပြီ။`, 'bot');
-                    return true;
+                knowledgeBase = converted;
+                localStorage.setItem(STORAGE_KB_KEY, JSON.stringify(converted));
+                isDataLoaded = true;
+                updateStatus('✅ data.json မှ ဒေတာ loaded');
+                console.log('🔄 Data loaded from data.json:', converted.length, 'entries');
+                
+                // Show success message in chat (only if not already shown)
+                const msgs = document.getElementById('chatMessages');
+                if (!msgs.querySelector('.data-loaded-msg')) {
+                    addMessage('✅ data.json မှ သင်ရိုးဒေတာ အောင်မြင်စွာ ဖတ်ပြီးပါပြီ။', 'bot');
                 }
-
-                return false;
+                
+                // Mark any existing data-loaded message
+                const existing = msgs.querySelector('.data-loaded-msg');
+                if (existing) existing.classList.add('data-loaded-msg');
 
             } catch (error) {
-                console.warn('⚠️ GitHub load failed:', error.message);
-                if (error.name === 'AbortError') {
-                    updateStatus('⏰ အချိန်ကုန်သွားပါပြီ', false);
-                } else {
-                    updateStatus('⚠️ GitHub မှရယူမရပါ', false);
+                console.warn('⚠️ data.json load failed:', error.message);
+                updateStatus('⚠️ data.json မရှိပါ', false);
+                // Fallback to localStorage or default
+                if (!loadFromLocalStorage()) {
+                    loadDefaultData();
                 }
-                return false;
-            }
-        }
-
-        // 🔄 Main load function
-        async function loadData() {
-            // Step 1: Try to load from localStorage first (fastest)
-            if (loadFromLocalStorage()) {
-                console.log('✅ Data loaded from localStorage');
-            }
-
-            // Step 2: Try to load from local data.json (MOST IMPORTANT)
-            const localLoaded = await loadFromLocalFile();
-
-            // Step 3: If local file loaded successfully, check GitHub for updates (if online)
-            if (localLoaded && navigator.onLine) {
-                setTimeout(async () => {
-                    await loadFromGitHub();
-                }, 2000);
-            }
-
-            // Step 4: If still no data, show error
-            if (!isDataLoaded) {
-                updateStatus('❌ ဒေတာမရှိပါ', false);
-                // Try one more time with a different approach
-                setTimeout(async () => {
-                    if (!isDataLoaded) {
-                        await loadFromLocalFile();
-                    }
-                }, 2000);
+                // Notify user
+                addMessage('⚠️ data.json ဖိုင် ရှာမတွေ့ပါ။ ပုံသေဒေတာကို သုံးနေပါသည်။', 'bot');
             }
         }
 
@@ -1079,24 +956,17 @@
         document.addEventListener('mouseup', function() { isDragging = false; });
 
         // =============================================
-        // 💬 7. Chat Functions (Flexible Matching)
+        // 💬 7. Chat Functions (Exact Match)
         // =============================================
 
-        function findBestMatch(question) {
-            if (!knowledgeBase || knowledgeBase.length === 0) {
-                return null;
-            }
-
+        function findExactMatch(question) {
             const normalizedQuestion = question.toLowerCase();
             let bestMatch = null;
-            let highestScore = 0;
+            let highestMatchCount = 0;
 
             for (let item of knowledgeBase) {
                 const keywords = item.keywords || [];
                 let matchCount = 0;
-                let totalKeywords = keywords.length;
-
-                if (totalKeywords === 0) continue;
 
                 for (let keyword of keywords) {
                     if (normalizedQuestion.includes(keyword.toLowerCase())) {
@@ -1104,16 +974,10 @@
                     }
                 }
 
-                const score = (matchCount / totalKeywords);
-
-                if (matchCount >= 1 && score >= highestScore) {
-                    if (score === highestScore && bestMatch) {
-                        if (totalKeywords > (bestMatch.keywords || []).length) {
-                            bestMatch = item;
-                        }
-                    } else {
+                if (matchCount === keywords.length && matchCount >= 1) {
+                    if (matchCount > highestMatchCount) {
+                        highestMatchCount = matchCount;
                         bestMatch = item;
-                        highestScore = score;
                     }
                 }
             }
@@ -1173,7 +1037,7 @@
             }
 
             const welcomeMsg = createMessageHTML(
-                'မင်္ဂလာပါ 👋<br>Kreative Kid\'s Lab မှ ကြိုဆိုပါတယ်။<br><br>📁 <b>Data Structure အကြောင်း</b><br>data.json ဖိုင်မှာ ဤပုံစံအတိုင်း ထည့်သွင်းထားပါ:<br><br>📌 <code>{"keywords": ["စာသား1", "စာသား2"], "answer": "အဖြေ"}</code><br><br>💡 မေးခွန်းထဲမှာ ပါတဲ့ စာသားတွေနဲ့ ကိုက်ညီတဲ့ အဖြေကို ပြန်ပေးပါမယ်။',
+                'မင်္ဂလာပါ 👋<br>Kreative Kid\'s Lab မှ ကြိုဆိုပါတယ်။<br>သင်ရိုးနဲ့ စာအုပ်တွေအကြောင်း မေးမြန်းနိုင်ပါတယ်။<br><span style="font-size:11px;color:#888;">💡 မေးခွန်းများကို စာလုံးအတိအကျ ရိုက်မေးပါ။</span>',
                 'bot'
             );
             messagesDiv.innerHTML = welcomeMsg;
@@ -1271,7 +1135,7 @@
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
             saveChatHistory();
 
-            if (sender === 'bot' && !text.startsWith('🔄') && !text.startsWith('📂') && !text.startsWith('❌')) {
+            if (sender === 'bot' && !text.startsWith('🔄') && !text.startsWith('✅') && !text.startsWith('⚠️')) {
                 setTimeout(() => speakText(text), 400);
             }
         }
@@ -1309,27 +1173,16 @@
             setTimeout(() => {
                 hideTyping();
 
-                if (!isDataLoaded || knowledgeBase.length === 0) {
-                    addMessage('❌ ဒေတာ မရှိသေးပါ။ ကျေးဇူးပြု၍ data.json ဖိုင်ကို စစ်ဆေးပါ။<br><br>📁 data.json ဖိုင်သည် ဤပုံစံအတိုင်း ဖြစ်ရပါမည်:<br><code>[{"keywords": ["စာသား"], "answer": "အဖြေ"}]</code>', 'bot');
-                    return;
-                }
-
-                const result = findBestMatch(question);
+                const result = findExactMatch(question);
                 if (result) {
                     addMessage(result.answer, 'bot');
                 } else {
-                    // Show suggestions from knowledge base
-                    let suggestions = knowledgeBase.slice(0, 5).map(item => {
+                    const suggestions = knowledgeBase.slice(0, 5).map(item => {
                         const keys = item.keywords || [];
                         return keys[0] || '';
                     }).filter(Boolean).join('၊ ');
-
-                    if (!suggestions) {
-                        suggestions = 'ကွန်ပျူတာ၊ မောက်စ်၊ ကီးဘုတ်';
-                    }
-
                     addMessage(
-                        `🙏 ကျေးဇူးပြု၍ ပိုမိုတိကျသော မေးခွန်းတစ်ခုကို မေးမြန်းပါ။<br><br>💡 အကြံပြုချက်များ: ${suggestions}<br><br>📌 မေးခွန်းထဲမှာ ပါတဲ့ စာသားတွေနဲ့ ကိုက်ညီမှု ရှိအောင် မေးပါ။`,
+                        `🙏 ကျေးဇူးပြု၍ ပိုမိုတိကျသော မေးခွန်းတစ်ခုကို မေးမြန်းပါ။<br><br>💡 အကြံပြုချက်များ: ${suggestions || 'ကွန်ပျူတာ, မောက်စ်, ကီးဘုတ်, Tux Paint'} စသည်တို့ကို မေးမြန်းနိုင်ပါတယ်။`,
                         'bot');
                 }
             }, 500 + Math.random() * 600);
@@ -1348,17 +1201,18 @@
         }
 
         // =============================================
-        // 🔄 12. Manual Update (Double-click header)
+        // 🔄 12. Manual Update (Double-click header) -> loads data.json
         // =============================================
 
         document.querySelector('.chat-header').addEventListener('dblclick', function() {
-            if (confirm('ဒေတာကို ပြန်လည်စစ်ဆေး အသစ်ပြုပြင်မှာလား?')) {
-                loadData();
+            if (confirm('ဒေတာကို data.json မှ ပြန်လည်ဖတ်မှာလား?')) {
+                dataLoadAttempted = false; // reset so it can load again
+                loadLocalDataJson();
             }
         });
 
         // =============================================
-        // ⌨️ 13. Enter Key
+        // ⌨️ 13. Enter Key & Load
         // =============================================
 
         document.getElementById('userInput').addEventListener('keypress', function(e) {
@@ -1374,18 +1228,16 @@
 
         window.addEventListener('load', function() {
             loadChatHistory();
-            
-            // Show data structure info
-            console.log('📁 Data Structure:');
-            console.log('  [');
-            console.log('    {');
-            console.log('      "keywords": ["စာသား1", "စာသား2", ...],');
-            console.log('      "answer": "အဖြေစာသား"');
-            console.log('    }');
-            console.log('  ]');
 
-            // Load data
-            loadData();
+            // First: Try to load from localStorage
+            if (!loadFromLocalStorage()) {
+                loadDefaultData();
+            }
+
+            // Then: load data.json (local) — main source
+            setTimeout(() => {
+                loadLocalDataJson();
+            }, 500);
 
             // Pre-load TTS voices
             if ('speechSynthesis' in window) {
@@ -1394,34 +1246,19 @@
 
             document.getElementById('userInput').focus();
 
-            // Online/Offline events
+            // Online/Offline events (just status)
             window.addEventListener('online', function() {
                 updateStatus('📶 အင်တာနက်ပြန်ရပါပြီ', true);
-                setTimeout(async () => {
-                    if (isDataLoaded) {
-                        await loadFromGitHub();
-                    }
-                }, 2000);
             });
 
             window.addEventListener('offline', function() {
                 updateStatus('📶 အင်တာနက်မရှိပါ', false);
             });
-
-            // Auto update check every 10 minutes (if online and data loaded)
-            setInterval(async () => {
-                if (navigator.onLine && isDataLoaded) {
-                    await loadFromGitHub();
-                }
-            }, 600000); // 10 minutes
         });
 
-        console.log('✅ KKL Chatbot is ready!');
-        console.log('📂 Data file: data.json (same directory)');
-        console.log('🌐 GitHub URL:', GITHUB_DATA_URL);
+        console.log('✅ KKL Chatbot is ready (local data.json)');
         console.log('💾 Data cached in localStorage');
         console.log('📚 Total entries:', knowledgeBase.length);
     </script>
-
 </body>
 </html>
