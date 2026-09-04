@@ -667,6 +667,45 @@
             }
         }
 
+        .message-actions {
+            display: none;
+            position: absolute;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            padding: 4px 0;
+            z-index: 100;
+            min-width: 120px;
+            top: 100%;
+            left: 0;
+            margin-top: 2px;
+        }
+        .message-actions.show {
+            display: block;
+        }
+        .message-actions button {
+            display: block;
+            width: 100%;
+            padding: 6px 16px;
+            border: none;
+            background: transparent;
+            text-align: left;
+            font-family: inherit;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background 0.15s;
+            color: #333;
+        }
+        .message-actions button:hover {
+            background: #f0f0f0;
+        }
+        .message-actions .delete-action {
+            color: #dc3545;
+        }
+        .message-actions .delete-action:hover {
+            background: #fde8ea;
+        }
+
         @supports (padding: max(0px)) {
             .chat-container {
                 padding-left: max(0px, env(safe-area-inset-left));
@@ -727,6 +766,7 @@
         let isDataLoaded = false;
         let isSpeechMuted = false;
         let dataLoadAttempted = false;
+        let activeActionMenu = null;
 
         // =============================================
         // 📦 2. Default Knowledge Base (Fallback)
@@ -793,7 +833,6 @@
                     throw new Error('Invalid data format');
                 }
 
-                // Convert from 'Keywords' + 'answer_my' to unified { keywords, answer }
                 const converted = data.map(item => {
                     const answer = item.answer_my || item.answer_th || item.answer_en || 
                                    'ကျေးဇူးပြု၍ ပြန်လည်စစ်ဆေးပါ။';
@@ -812,26 +851,13 @@
                 isDataLoaded = true;
                 updateStatus('✅ data.json မှ ဒေတာ loaded');
                 console.log('🔄 Data loaded from data.json:', converted.length, 'entries');
-                
-                // Show success message in chat (only if not already shown)
-                const msgs = document.getElementById('chatMessages');
-                if (!msgs.querySelector('.data-loaded-msg')) {
-                    addMessage('✅ data.json မှ သင်ရိုးဒေတာ အောင်မြင်စွာ ဖတ်ပြီးပါပြီ။', 'bot');
-                }
-                
-                // Mark any existing data-loaded message
-                const existing = msgs.querySelector('.data-loaded-msg');
-                if (existing) existing.classList.add('data-loaded-msg');
 
             } catch (error) {
                 console.warn('⚠️ data.json load failed:', error.message);
                 updateStatus('⚠️ data.json မရှိပါ', false);
-                // Fallback to localStorage or default
                 if (!loadFromLocalStorage()) {
                     loadDefaultData();
                 }
-                // Notify user
-                addMessage('⚠️ data.json ဖိုင် ရှာမတွေ့ပါ။ ပုံသေဒေတာကို သုံးနေပါသည်။', 'bot');
             }
         }
 
@@ -997,13 +1023,18 @@
             return String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0');
         }
 
-        function createMessageHTML(text, sender, isDeleted = false) {
+        function createMessageHTML(text, sender, isDeleted = false, msgId = null) {
             const time = getCurrentTime();
             const deletedClass = isDeleted ? 'deleted' : '';
             const deletedText = isDeleted ? 'ဤမက်ဆေ့ခ်ျကို ဖျက်လိုက်သည်' : text;
-            return `<div class="message ${sender} ${deletedClass}" data-sender="${sender}" data-deleted="${isDeleted}" onclick="handleMessageClick(this)">
+            const idAttr = msgId ? `data-msg-id="${msgId}"` : '';
+            return `<div class="message ${sender} ${deletedClass}" ${idAttr} data-sender="${sender}" data-deleted="${isDeleted}" onclick="showMessageActions(event, this)">
                 ${deletedText}
                 <span class="time">${time}</span>
+                <div class="message-actions" onclick="event.stopPropagation();">
+                    ${sender === 'user' ? '<button onclick="copyMessage(this)">📋 ကူးယူ</button><button onclick="editMessage(this)">✏️ ပြင်ဆင်</button>' : '<button onclick="copyMessage(this)">📋 ကူးယူ</button>'}
+                    <button class="delete-action" onclick="deleteMessage(this)">🗑️ ဖျက်</button>
+                </div>
             </div>`;
         }
 
@@ -1045,31 +1076,169 @@
         }
 
         // =============================================
-        // 🗑️ 9. Delete Functions
+        // 🗑️ 9. Message Actions (Copy, Edit, Delete)
         // =============================================
 
-        function handleMessageClick(element) {
-            if (element.dataset.deleted === 'true') {
-                element.remove();
-                saveChatHistory();
-                return;
-            }
-            if (element.classList.contains('typing-indicator')) return;
+        function showMessageActions(event, element) {
+            event.stopPropagation();
+            if (element.dataset.deleted === 'true') return;
 
-            deleteTarget = element;
+            // Close any open menu
+            if (activeActionMenu) {
+                activeActionMenu.classList.remove('show');
+            }
+
+            const actions = element.querySelector('.message-actions');
+            if (!actions) return;
+
+            // Toggle
+            actions.classList.toggle('show');
+            if (actions.classList.contains('show')) {
+                activeActionMenu = actions;
+            } else {
+                activeActionMenu = null;
+            }
+        }
+
+        // Close action menus on click outside
+        document.addEventListener('click', function(e) {
+            if (activeActionMenu && !activeActionMenu.contains(e.target)) {
+                activeActionMenu.classList.remove('show');
+                activeActionMenu = null;
+            }
+        });
+
+        function copyMessage(btn) {
+            const msgDiv = btn.closest('.message');
+            if (!msgDiv) return;
+            const text = msgDiv.textContent.replace(/\d{1,2}:\d{2}$/, '').trim();
+            
+            // Use modern clipboard API
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast('✅ ကူးယူပြီးပါပြီ');
+                }).catch(() => {
+                    fallbackCopy(text);
+                });
+            } else {
+                fallbackCopy(text);
+            }
+            
+            closeActionMenu(btn);
+        }
+
+        function fallbackCopy(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                showToast('✅ ကူးယူပြီးပါပြီ');
+            } catch (e) {
+                showToast('❌ ကူးယူမရပါ');
+            }
+            document.body.removeChild(textarea);
+        }
+
+        function editMessage(btn) {
+            const msgDiv = btn.closest('.message');
+            if (!msgDiv || msgDiv.dataset.sender !== 'user') return;
+            if (msgDiv.dataset.deleted === 'true') return;
+
+            const text = msgDiv.textContent.replace(/\d{1,2}:\d{2}$/, '').trim();
+            const input = document.getElementById('userInput');
+            input.value = text;
+            input.focus();
+            input.select();
+
+            // Delete the original message
+            msgDiv.remove();
+            saveChatHistory();
+            closeActionMenu(btn);
+            showToast('✏️ ပြင်ဆင်ရန် အဆင်သင့်');
+        }
+
+        function deleteMessage(btn) {
+            const msgDiv = btn.closest('.message');
+            if (!msgDiv || msgDiv.dataset.deleted === 'true') return;
+
+            deleteTarget = msgDiv;
             deleteMode = 'single';
-            const content = element.textContent.trim().substring(0, 30) + (element.textContent.length > 30 ? '...' : '');
             document.getElementById('deleteConfirmTitle').textContent = 'မက်ဆေ့ခ်ျကို ဖျက်မည်';
             document.getElementById('deleteConfirmMsg').innerHTML =
-                `"${content}" ဆိုတဲ့ မက်ဆေ့ခ်ျကို ဖျက်ပစ်မှာလား?<br><span style="font-size:11px;color:#999;">ဖျက်ပြီးရင် ပြန်မရယူနိုင်ပါ။</span>`;
+                'ဤမက်ဆေ့ခ်ျကို ဖျက်ပစ်မှာလား?<br><span style="font-size:11px;color:#999;">ဖျက်ပြီးရင် ပြန်မရယူနိုင်ပါ။</span>';
             document.getElementById('deleteOverlay').classList.add('active');
+            
+            closeActionMenu(btn);
+        }
+
+        function closeActionMenu(btn) {
+            const actions = btn.closest('.message-actions');
+            if (actions) {
+                actions.classList.remove('show');
+                if (activeActionMenu === actions) {
+                    activeActionMenu = null;
+                }
+            }
+        }
+
+        function showToast(message) {
+            let toast = document.getElementById('toastMessage');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'toastMessage';
+                toast.style.cssText = `
+                    position: fixed;
+                    bottom: 80px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background: rgba(0,0,0,0.8);
+                    color: white;
+                    padding: 8px 20px;
+                    border-radius: 25px;
+                    font-size: 14px;
+                    z-index: 2000;
+                    transition: opacity 0.3s ease;
+                    font-family: inherit;
+                    pointer-events: none;
+                `;
+                document.body.appendChild(toast);
+            }
+            toast.textContent = message;
+            toast.style.opacity = '1';
+            clearTimeout(toast._timeout);
+            toast._timeout = setTimeout(() => {
+                toast.style.opacity = '0';
+            }, 2000);
+        }
+
+        function confirmDelete() {
+            if (deleteMode === 'single' && deleteTarget) {
+                const sender = deleteTarget.dataset.sender;
+                const time = deleteTarget.querySelector('.time')?.textContent || getCurrentTime();
+                deleteTarget.className = `message ${sender} deleted`;
+                deleteTarget.dataset.deleted = 'true';
+                deleteTarget.innerHTML = `ဤမက်ဆေ့ခ်ျကို ဖျက်လိုက်သည် <span class="time">${time}</span>`;
+                deleteTarget.onclick = function(e) {
+                    // Allow clicking on deleted message to permanently remove
+                    this.remove();
+                    saveChatHistory();
+                };
+                deleteTarget.querySelector('.message-actions')?.remove();
+                deleteTarget = null;
+            }
+
+            document.getElementById('deleteOverlay').classList.remove('active');
+            deleteMode = 'single';
+            saveChatHistory();
         }
 
         function confirmClearAll() {
             const messagesDiv = document.getElementById('chatMessages');
             const messages = messagesDiv.querySelectorAll('.message:not(.deleted)');
             if (messages.length === 0) {
-                alert('ဖျက်စရာ မက်ဆေ့ခ်ျမရှိပါ။');
+                showToast('ဖျက်စရာ မက်ဆေ့ခ်ျမရှိပါ');
                 return;
             }
             deleteMode = 'all';
@@ -1078,40 +1247,6 @@
             document.getElementById('deleteConfirmMsg').innerHTML =
                 'စကားဝိုင်းထဲက မက်ဆေ့ခ်ျအားလုံးကို ဖျက်ပစ်မှာလား?<br><span style="font-size:11px;color:#999;">ဖျက်ပြီးရင် ပြန်မရယူနိုင်ပါ။</span>';
             document.getElementById('deleteOverlay').classList.add('active');
-        }
-
-        function confirmDelete() {
-            const messagesDiv = document.getElementById('chatMessages');
-
-            if (deleteMode === 'single' && deleteTarget) {
-                const sender = deleteTarget.dataset.sender;
-                const time = deleteTarget.querySelector('.time')?.textContent || getCurrentTime();
-                deleteTarget.className = `message ${sender} deleted`;
-                deleteTarget.dataset.deleted = 'true';
-                deleteTarget.innerHTML = `ဤမက်ဆေ့ခ်ျကို ဖျက်လိုက်သည် <span class="time">${time}</span>`;
-                deleteTarget.onclick = function() {
-                    this.remove();
-                    saveChatHistory();
-                };
-                deleteTarget = null;
-            } else if (deleteMode === 'all') {
-                const allMessages = messagesDiv.querySelectorAll('.message:not(.deleted)');
-                allMessages.forEach(msg => {
-                    const sender = msg.dataset.sender;
-                    const time = msg.querySelector('.time')?.textContent || getCurrentTime();
-                    msg.className = `message ${sender} deleted`;
-                    msg.dataset.deleted = 'true';
-                    msg.innerHTML = `ဤမက်ဆေ့ခ်ျကို ဖျက်လိုက်သည် <span class="time">${time}</span>`;
-                    msg.onclick = function() {
-                        this.remove();
-                        saveChatHistory();
-                    };
-                });
-            }
-
-            document.getElementById('deleteOverlay').classList.remove('active');
-            deleteMode = 'single';
-            saveChatHistory();
         }
 
         function cancelDelete() {
@@ -1135,7 +1270,7 @@
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
             saveChatHistory();
 
-            if (sender === 'bot' && !text.startsWith('🔄') && !text.startsWith('✅') && !text.startsWith('⚠️')) {
+            if (sender === 'bot' && !text.startsWith('🔄') && !text.startsWith('⚠️')) {
                 setTimeout(() => speakText(text), 400);
             }
         }
@@ -1206,8 +1341,9 @@
 
         document.querySelector('.chat-header').addEventListener('dblclick', function() {
             if (confirm('ဒေတာကို data.json မှ ပြန်လည်ဖတ်မှာလား?')) {
-                dataLoadAttempted = false; // reset so it can load again
+                dataLoadAttempted = false;
                 loadLocalDataJson();
+                showToast('🔄 ဒေတာ ပြန်လည်ဖတ်နေပါသည်...');
             }
         });
 
@@ -1229,24 +1365,20 @@
         window.addEventListener('load', function() {
             loadChatHistory();
 
-            // First: Try to load from localStorage
             if (!loadFromLocalStorage()) {
                 loadDefaultData();
             }
 
-            // Then: load data.json (local) — main source
             setTimeout(() => {
                 loadLocalDataJson();
             }, 500);
 
-            // Pre-load TTS voices
             if ('speechSynthesis' in window) {
                 window.speechSynthesis.getVoices();
             }
 
             document.getElementById('userInput').focus();
 
-            // Online/Offline events (just status)
             window.addEventListener('online', function() {
                 updateStatus('📶 အင်တာနက်ပြန်ရပါပြီ', true);
             });
@@ -1257,7 +1389,6 @@
         });
 
         console.log('✅ KKL Chatbot is ready (local data.json)');
-        console.log('💾 Data cached in localStorage');
         console.log('📚 Total entries:', knowledgeBase.length);
     </script>
 </body>
