@@ -667,7 +667,7 @@
             }
         }
 
-        /* Message actions - hidden by default */
+        /* Message actions - hidden by default, shown on click */
         .message-actions {
             display: none;
             position: absolute;
@@ -712,7 +712,6 @@
             right: 0;
         }
 
-        /* Toast notification */
         #toastMessage {
             position: fixed;
             bottom: 80px;
@@ -1052,7 +1051,7 @@
             const deletedClass = isDeleted ? 'deleted' : '';
             const deletedText = isDeleted ? 'ဤမက်ဆေ့ခ်ျကို ဖျက်လိုက်သည်' : text;
             return `<div class="message ${sender} ${deletedClass}" data-sender="${sender}" data-deleted="${isDeleted}" onclick="showMessageActions(event, this)">
-                ${deletedText}
+                <div class="message-content">${deletedText}</div>
                 <span class="time">${time}</span>
                 <div class="message-actions" onclick="event.stopPropagation();">
                     ${sender === 'user' ? '<button onclick="copyMessage(this)">📋 ကူးယူ</button><button onclick="editMessage(this)">✏️ ပြင်ဆင်</button>' : '<button onclick="copyMessage(this)">📋 ကူးယူ</button>'}
@@ -1131,8 +1130,9 @@
         function copyMessage(btn) {
             const msgDiv = btn.closest('.message');
             if (!msgDiv) return;
-            // Remove time and action menu text
-            const text = msgDiv.textContent.replace(/\d{1,2}:\d{2}$/, '').trim();
+            // Get text from message-content div to avoid copying time and actions
+            const contentDiv = msgDiv.querySelector('.message-content');
+            const text = contentDiv ? contentDiv.textContent.trim() : msgDiv.textContent.replace(/\d{1,2}:\d{2}$/, '').trim();
             
             if (navigator.clipboard && navigator.clipboard.writeText) {
                 navigator.clipboard.writeText(text).then(() => {
@@ -1166,7 +1166,8 @@
             if (!msgDiv || msgDiv.dataset.sender !== 'user') return;
             if (msgDiv.dataset.deleted === 'true') return;
 
-            const text = msgDiv.textContent.replace(/\d{1,2}:\d{2}$/, '').trim();
+            const contentDiv = msgDiv.querySelector('.message-content');
+            const text = contentDiv ? contentDiv.textContent.trim() : msgDiv.textContent.replace(/\d{1,2}:\d{2}$/, '').trim();
             const input = document.getElementById('userInput');
             input.value = text;
             input.focus();
