@@ -3,42 +3,32 @@
         "Keywords":[
             "မင်္ဂလာပါ"
         ],
-        "answer_my":"မင်္ဂလာပါခင်ဗျာ..",
-        "answer_th":"แสงคือคลื่นแม่เหล็กไฟฟ้าชนิดหนึ่ง...",
-        "answer_en":"Light is a type of electromagnetic wave..."
+        "answer":"မင်္ဂလာပါခင်ဗျာ.."
     },
     {
         "Keywords":[
             "အကြံပြု"
         ],
-        "answer_my":"ကလေးအသက်ပေါ်မူတည်ပြီး အကြံပြုပေးပါမယ်။\n\n📌 ၂-၄နှစ် → Phonics သင်နည်းလမ်းညွှန် (မိဘအတွက်) + Pre KG English\n📌 ၅-၇နှစ် → Start to Read + Reading Fun\n📌 ၈-၁၀နှစ် → Read & Learn + Little Explore\n📌 ၁၀နှစ်အထက် → English Bridge + Spoken English + Computer Science\n\nကလေးအသက်ကို ပြောပါ၊ ပိုပြီးတိကျတဲ့ အကြံပြုချက် ရနိုင်ပါတယ်။",
-        "answer_th":"หลักการของแสงหมายถึงสิ่งที่มองเห็นได้",
-        "answer_en":"The principle of light refers to what is visible."
+        "answer":"ကလေးအသက်ပေါ်မူတည်ပြီး အကြံပြုပေးပါမယ်။\n\n📌 ၂-၄နှစ် → Phonics သင်နည်းလမ်းညွှန် (မိဘအတွက်) + Pre KG English\n📌 ၅-၇နှစ် → Start to Read + Reading Fun\n📌 ၈-၁၀နှစ် → Read & Learn + Little Explore\n📌 ၁၀နှစ်အထက် → English Bridge + Spoken English + Computer Science\n\nကလေးအသက်ကို ပြောပါ၊ ပိုပြီးတိကျတဲ့ အကြံပြုချက် ရနိုင်ပါတယ်။"
     },
     {
         "Keywords":[
             "recommend"
         ],
-        "answer_my":"I can recommend based on your child's age.\n\n📌 2-4 years → Phonics Guide (for parents) + Pre KG English\n📌 5-7 years → Start to Read + Reading Fun\n📌 8-10 years → Read & Learn + Little Explore\n📌 10+ years → English Bridge + Spoken English + Computer Science\n\nTell me your child's age for more specific recommendations.",
-        "answer_th":"คลื่นมีหลายประเภท เช่น คลื่นน้ำ คลื่นลม คลื่นเสียง",
-        "answer_en":"Waves include water waves, wind waves, sound waves..."
+        "answer":"I can recommend based on your child's age.\n\n📌 2-4 years → Phonics Guide (for parents) + Pre KG English\n📌 5-7 years → Start to Read + Reading Fun\n📌 8-10 years → Read & Learn + Little Explore\n📌 10+ years → English Bridge + Spoken English + Computer Science\n\nTell me your child's age for more specific recommendations."
     },
     {
         "Keywords":[
             "help"
         ],
-        "answer_my":"မင်္ဂလာပါ။ ကျွန်တော် သင့်အတွက် အကူအညီပေးဖို့ အသင့်ရှိပါတယ်။\n\n📌 'စာအုပ်စာရင်း' လို့ ရိုက်ထည့်ပြီး စာအုပ်အားလုံးကို ကြည့်နိုင်ပါတယ်။\n📌 စာအုပ်အမည်အတိအကျ ရိုက်ထည့်ပြီး အသေးစိတ်သိနိုင်ပါတယ်။\n📌 'အကြံပြု' လို့ ရိုက်ထည့်ပြီး ကလေးအသက်အလိုက် အကြံပြုချက်ရနိုင်ပါတယ်။\n\nဒါမှမဟုတ် သင့်ရဲ့ မေးခွန်းကို ရှင်းရှင်းလင်းလင်း ပြန်မေးပေးပါ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"မင်္ဂလာပါ။ ကျွန်တော် သင့်အတွက် အကူအညီပေးဖို့ အသင့်ရှိပါတယ်။\n\n📌 'စာအုပ်စာရင်း' လို့ ရိုက်ထည့်ပြီး စာအုပ်အားလုံးကို ကြည့်နိုင်ပါတယ်။\n📌 စာအုပ်အမည်အတိအကျ ရိုက်ထည့်ပြီး အသေးစိတ်သိနိုင်ပါတယ်။\n📌 'အကြံပြု' လို့ ရိုက်ထည့်ပြီး ကလေးအသက်အလိုက် အကြံပြုချက်ရနိုင်ပါတယ်။\n\nဒါမှမဟုတ် သင့်ရဲ့ မေးခွန်းကို ရှင်းရှင်းလင်းလင်း ပြန်မေးပေးပါ။"
     },
     {
         "Keywords":[
             "ကူ",
             "ညီ"
         ],
-        "answer_my":"မင်္ဂလာပါ။ ကျွန်တော် သင့်အတွက် အကူအညီပေးဖို့ အသင့်ရှိပါတယ်။\n\n📌 'စာအုပ်စာရင်း' လို့ ရိုက်ထည့်ပြီး စာအုပ်အားလုံးကို ကြည့်နိုင်ပါတယ်။\n📌 စာအုပ်အမည်အတိအကျ ရိုက်ထည့်ပြီး အသေးစိတ်သိနိုင်ပါတယ်။\n📌 'အကြံပြု' လို့ ရိုက်ထည့်ပြီး ကလေးအသက်အလိုက် အကြံပြုချက်ရနိုင်ပါတယ်။\n\nဒါမှမဟုတ် သင့်ရဲ့ မေးခွန်းကို ရှင်းရှင်းလင်းလင်း ပြန်မေးပေးပါ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"မင်္ဂလာပါ။ ကျွန်တော် သင့်အတွက် အကူအညီပေးဖို့ အသင့်ရှိပါတယ်။\n\n📌 'စာအုပ်စာရင်း' လို့ ရိုက်ထည့်ပြီး စာအုပ်အားလုံးကို ကြည့်နိုင်ပါတယ်။\n📌 စာအုပ်အမည်အတိအကျ ရိုက်ထည့်ပြီး အသေးစိတ်သိနိုင်ပါတယ်။\n📌 'အကြံပြု' လို့ ရိုက်ထည့်ပြီး ကလေးအသက်အလိုက် အကြံပြုချက်ရနိုင်ပါတယ်။\n\nဒါမှမဟုတ် သင့်ရဲ့ မေးခွန်းကို ရှင်းရှင်းလင်းလင်း ပြန်မေးပေးပါ။"
     },
     {
         "Keywords":[
@@ -47,9 +37,7 @@
             "teacher",
             "ဝယ်"
         ],
-        "answer_my":"📖 Bridge Student Book + Teacher Guide စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၅,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Bridge+(Student%2BTeacher)",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Bridge Student Book + Teacher Guide စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၅,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Bridge+(Student%2BTeacher)"
     },
     {
         "Keywords":[
@@ -57,9 +45,7 @@
             "1",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (1) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+1",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (1) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+1"
     },
     {
         "Keywords":[
@@ -67,9 +53,7 @@
             "2",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (2) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+2 \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (2) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+2 \n"
     },
     {
         "Keywords":[
@@ -77,9 +61,7 @@
             "3",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (3) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+3 \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (3) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+3 \n"
     },
     {
         "Keywords":[
@@ -87,9 +69,7 @@
             "4",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (4) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+4 \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (4) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+4 \n"
     },
     {
         "Keywords":[
@@ -97,9 +77,7 @@
             "5",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (5) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+5",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (5) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+5"
     },
     {
         "Keywords":[
@@ -107,9 +85,7 @@
             "6",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (6) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+6 \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading Fun for Kids Series ထဲက Reading Fun for Kids (6) စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Reading+Fun+For+Kids+-+6 \n"
     },
     {
         "Keywords":[
@@ -117,9 +93,7 @@
             "fun",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading Fun Book Series များ ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ ဒီ Series လေးက စာစဖတ်မယ့် ကလေးများအတွက် အကောင်းဆုံးဖြစ်သလို Reading to Comprehension သို့ ပေါင်းကူးပေးနိုင်မယ့် အကောင်းဆုံးစာအုပ်စီးရီးလေးဖြစ်ပါတယ်။ လတ်တလောမှာ ၆ အုပ်ရှိပါတယ်။ အောက်မှာအစဉ်အတိုင်းဖော်ပြပေးလိုက်ပါတယ်။\n\n📌 Reading Fun 1-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 2-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 3-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 4-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 5-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 6-- ၂,၅၀၀ ကျပ်\n📌 6 အုပ်စလုံး -- ၁၂,၀၀၀ ကျပ် (၃၀၀၀ ကျပ်သက်သာ)\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading Fun Book Series များ ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ ဒီ Series လေးက စာစဖတ်မယ့် ကလေးများအတွက် အကောင်းဆုံးဖြစ်သလို Reading to Comprehension သို့ ပေါင်းကူးပေးနိုင်မယ့် အကောင်းဆုံးစာအုပ်စီးရီးလေးဖြစ်ပါတယ်။ လတ်တလောမှာ ၆ အုပ်ရှိပါတယ်။ အောက်မှာအစဉ်အတိုင်းဖော်ပြပေးလိုက်ပါတယ်။\n\n📌 Reading Fun 1-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 2-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 3-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 4-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 5-- ၂,၅၀၀ ကျပ်\n📌 Reading Fun 6-- ၂,၅၀၀ ကျပ်\n📌 6 အုပ်စလုံး -- ၁၂,၀၀၀ ကျပ် (၃၀၀၀ ကျပ်သက်သာ)\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n"
     },
     {
         "Keywords":[
@@ -127,9 +101,7 @@
             "me",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading & Learn Series ထဲက About me စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+1+About+me \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading & Learn Series ထဲက About me စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+1+About+me \n"
     },
     {
         "Keywords":[
@@ -137,9 +109,7 @@
             "student",
             "ဝယ်"
         ],
-        "answer_my":"📖 Bridge Student Book စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Bridge+Student+Book",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Bridge Student Book စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Bridge+Student+Book"
     },
     {
         "Keywords":[
@@ -147,9 +117,7 @@
             "teacher",
             "ဝယ်"
         ],
-        "answer_my":"📖 Bridge Teacher Guide စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Bridge+Teacher+Guide \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Bridge Teacher Guide စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Bridge+Teacher+Guide \n"
     },
     {
         "Keywords":[
@@ -157,9 +125,7 @@
             "1",
             "ဝယ်"
         ],
-        "answer_my":"📖 Kreative Kid’s Lab Computer Science Level-1 စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 အသက် ၆ နှစ်မှ ကွန်ပျူတာစသင်မည့် ကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Kreative+Kid's+Lab+CS+I+(Computer+Science)",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Kreative Kid’s Lab Computer Science Level-1 စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 အသက် ၆ နှစ်မှ ကွန်ပျူတာစသင်မည့် ကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Kreative+Kid's+Lab+CS+I+(Computer+Science)"
     },
     {
         "Keywords":[
@@ -167,9 +133,7 @@
             "2",
             "ဝယ်"
         ],
-        "answer_my":"📖 Kreative Kid’s Lab Computer Science Level-2 စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌Computer Science Level I သင်ပြီးသော ကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Kreative+Kid's+Lab+CS+II+(Computer+Science) \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Kreative Kid’s Lab Computer Science Level-2 စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌Computer Science Level I သင်ပြီးသော ကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Kreative+Kid's+Lab+CS+II+(Computer+Science) \n"
     },
     {
         "Keywords":[
@@ -177,9 +141,7 @@
             "3",
             "ဝယ်"
         ],
-        "answer_my":"📖 Kreative Kid’s Lab Computer Science Level- 3 ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌Computer Science Level II သင်ပြီးသော ကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Kreative+Kid's+Lab+CS+III+(Computer+Science)",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Kreative Kid’s Lab Computer Science Level- 3 ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌Computer Science Level II သင်ပြီးသော ကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Kreative+Kid's+Lab+CS+III+(Computer+Science)"
     },
     {
         "Keywords":[
@@ -187,609 +149,455 @@
             "4",
             "ဝယ်"
         ],
-        "answer_my":"📖 Kreative Kid’s Lab Computer Science Level- 4 ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌Computer Science Level III သင်ပြီးသော ကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Kreative+Kid's+Lab+CS+IV+(Computer+Science)",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Kreative Kid’s Lab Computer Science Level- 4 ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း -၁၀,၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌Computer Science Level III သင်ပြီးသော ကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Kreative+Kid's+Lab+CS+IV+(Computer+Science)"
     },
     {
         "Keywords":[
             "english bridge",
             "ဝယ်"
         ],
-        "answer_my":"📖 English Bridge ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 Bridge Student Book - ၁၀,၀၀၀ ကျပ်\n📌 Bridge Teacher Guide - ၁၀,၀၀၀ကျပ်\n📌 Bridge နှစ်အုပ်တွဲ - ၁၅,၀၀၀ကျပ် (သီးသန့်ဈေး)\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) + Presentation Software (Windows\/Android) + Software Access Code (1 year for 2 devices\/ 2 years for 1 devices)\n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 English Bridge ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 Bridge Student Book - ၁၀,၀၀၀ ကျပ်\n📌 Bridge Teacher Guide - ၁၀,၀၀၀ကျပ်\n📌 Bridge နှစ်အုပ်တွဲ - ၁၅,၀၀၀ကျပ် (သီးသန့်ဈေး)\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) + Presentation Software (Windows\/Android) + Software Access Code (1 year for 2 devices\/ 2 years for 1 devices)\n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n"
     },
     {
         "Keywords":[
             "bridge",
             "ဝယ်"
         ],
-        "answer_my":"📖 English Bridge ကို ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ English Bridge မှာ Student Book နဲ့ Teacher Guide ဆိုပြီး နှစ်မျိုးရှိပါတယ်။\n\n📌 Bridge Student Book - ၁၀,၀၀၀ ကျပ်၊ Bridge Teacher Guide - ၁၀,၀၀၀ကျပ်၊ Bridge နှစ်အုပ်တွဲ - ၁၅,၀၀၀ကျပ်\n📌 Printable PDF + Presentation Software (Windows\/Android) + Software Access Code (1 year for 2 devices\/ 2 years for 1 devices)\n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါခင်ဗျာ..\n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 English Bridge ကို ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ English Bridge မှာ Student Book နဲ့ Teacher Guide ဆိုပြီး နှစ်မျိုးရှိပါတယ်။\n\n📌 Bridge Student Book - ၁၀,၀၀၀ ကျပ်၊ Bridge Teacher Guide - ၁၀,၀၀၀ကျပ်၊ Bridge နှစ်အုပ်တွဲ - ၁၅,၀၀၀ကျပ်\n📌 Printable PDF + Presentation Software (Windows\/Android) + Software Access Code (1 year for 2 devices\/ 2 years for 1 devices)\n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါခင်ဗျာ..\n"
     },
     {
         "Keywords":[
             "pre kg",
             "ဝယ်"
         ],
-        "answer_my":"📖 Pre KG English ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 Pre KG 1- Myself and My Family (1) -- ၁၀,၀၀၀ ကျပ်\n📌 Pre KG 2- Myself and My Family (2) -- ၁၀,၀၀၀ ကျပ်\n📌 Pre KG 3- My Home and My School (1) -- ၁၀,၀၀၀ ကျပ်\n\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) + Presentation Software (Windows\/Android) + Software Access Code (1 year for 1 devices)\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။\n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Pre KG English ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 Pre KG 1- Myself and My Family (1) -- ၁၀,၀၀၀ ကျပ်\n📌 Pre KG 2- Myself and My Family (2) -- ၁၀,၀၀၀ ကျပ်\n📌 Pre KG 3- My Home and My School (1) -- ၁၀,၀၀၀ ကျပ်\n\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) + Presentation Software (Windows\/Android) + Software Access Code (1 year for 1 devices)\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။\n"
     },
     {
         "Keywords":[
             "computer science",
             "ဝယ်"
         ],
-        "answer_my":"📖 Kreative Kid’s Lab (Computer Science Course Book) ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 CS Level1 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level2 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level3 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level4 -- ၁၀,၀၀၀ ကျပ်\n\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Kreative Kid’s Lab (Computer Science Course Book) ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 CS Level1 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level2 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level3 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level4 -- ၁၀,၀၀၀ ကျပ်\n\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n"
     },
     {
         "Keywords":[
             "spoken english",
             "ဝယ်"
         ],
-        "answer_my":"📖 Spoken English ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 စျေးနှုန်း - ၅၀၀၀ကျပ်\n📌 ရရှိမည့်ပုံစံ - Printable PDF \n📌 ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အခြေခံကောင်းအတွက် ရည်ရွယ်ပါတယ်။\nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Spoken+English",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Spoken English ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 စျေးနှုန်း - ၅၀၀၀ကျပ်\n📌 ရရှိမည့်ပုံစံ - Printable PDF \n📌 ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အခြေခံကောင်းအတွက် ရည်ရွယ်ပါတယ်။\nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Spoken+English"
     },
     {
         "Keywords":[
             "start to read",
             "ဝယ်"
         ],
-        "answer_my":"📖 Start to Read Books များ ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ ဒီ Series လေးက စာစဖတ်မယ့် ကလေးများအတွက် အကောင်းဆုံးဖြစ်သလို လတ်တလောမှာ ၆ အုပ်ရှိပါတယ်။ အောက်မှာအစဉ်အတိုင်းဖော်ပြပေးလိုက်ပါတယ်။\n\n📌 The Pal Cat -- ၂,၀၀၀ ကျပ်\n📌 The Pup in the Mud -- ၂,၀၀၀ ကျပ်\n📌 The Big Box -- ၂,၀၀၀ ကျပ်\n📌 The Wet Pet -- ၂,၀၀၀ ကျပ်\n📌 The Fun Trip -- ၂,၀၀၀ ကျပ်\n📌 The Big Light -- ၂,၀၀၀ ကျပ်\n📌 6 အုပ်စလုံး -- ၁၀,၀၀၀ ကျပ်\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။\nဥပမာ- \"The Pal Cat ဝယ်ပါမယ်\" ဟုရေးပါ။\n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Start to Read Books များ ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ ဒီ Series လေးက စာစဖတ်မယ့် ကလေးများအတွက် အကောင်းဆုံးဖြစ်သလို လတ်တလောမှာ ၆ အုပ်ရှိပါတယ်။ အောက်မှာအစဉ်အတိုင်းဖော်ပြပေးလိုက်ပါတယ်။\n\n📌 The Pal Cat -- ၂,၀၀၀ ကျပ်\n📌 The Pup in the Mud -- ၂,၀၀၀ ကျပ်\n📌 The Big Box -- ၂,၀၀၀ ကျပ်\n📌 The Wet Pet -- ၂,၀၀၀ ကျပ်\n📌 The Fun Trip -- ၂,၀၀၀ ကျပ်\n📌 The Big Light -- ၂,၀၀၀ ကျပ်\n📌 6 အုပ်စလုံး -- ၁၀,၀၀၀ ကျပ်\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။\nဥပမာ- \"The Pal Cat ဝယ်ပါမယ်\" ဟုရေးပါ။\n"
     },
     {
         "Keywords":[
             "ကွန်ပျူတာသိပ္ပံ",
             "ဝယ်"
         ],
-        "answer_my":"📖 Kreative Kid’s Lab (Computer Science Course Book) ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 CS Level1 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level2 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level3 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level4 -- ၁၀,၀၀၀ ကျပ်\n\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Kreative Kid’s Lab (Computer Science Course Book) ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 CS Level1 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level2 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level3 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level4 -- ၁၀,၀၀၀ ကျပ်\n\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n"
     },
     {
         "Keywords":[
             "cs",
             "ဝယ်"
         ],
-        "answer_my":"📖 Kreative Kid’s Lab (Computer Science Course Book) ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 CS Level1 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level2 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level3 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level4 -- ၁၀,၀၀၀ ကျပ်\n\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Kreative Kid’s Lab (Computer Science Course Book) ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 CS Level1 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level2 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level3 -- ၁၀,၀၀၀ ကျပ်\n📌 CS Level4 -- ၁၀,၀၀၀ ကျပ်\n\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n"
     },
     {
         "Keywords":[
             "read & learn",
             "ဝယ်"
         ],
-        "answer_my":"📖 Read and Learn Book Series များ ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ ဒီ Series လေးက Start to Read နှင့် Reading Fun စီးရီးကိုလေ့လာပြီးတဲ့ ကလေးများအတွက် အကောင်းဆုံးဖြစ်သလို Reading to Knowledge သို့ ပေါင်းကူးပေးနိုင်မယ့် အကောင်းဆုံးစာအုပ်စီးရီးလေးဖြစ်ပါတယ်။ လတ်တလောမှာ ၆ အုပ်ရှိပါတယ်။ အောက်မှာအစဉ်အတိုင်းဖော်ပြပေးလိုက်ပါတယ်။ \n\n📌 About me-- ၂,၅၀၀ ကျပ် \n📌 My Favourite Days-- ၂,၅၀၀ ကျပ် \n📌 Science is Fun-- ၂,၅၀၀ ကျပ် \n📌 Oh! My Food!-- ၂,၅၀၀ ကျပ် \n📌 Our Social is Special-- ၂,၅၀၀ ကျပ် \n📌 Our Lovely Ethnics Friends-- ၂,၅၀၀ ကျပ် \n📌 6 အုပ်စလုံး -- ၁၂,၀၀၀ ကျပ် (၃၀၀၀ ကျပ်သက်သာ) \n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Read and Learn Book Series များ ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ ဒီ Series လေးက Start to Read နှင့် Reading Fun စီးရီးကိုလေ့လာပြီးတဲ့ ကလေးများအတွက် အကောင်းဆုံးဖြစ်သလို Reading to Knowledge သို့ ပေါင်းကူးပေးနိုင်မယ့် အကောင်းဆုံးစာအုပ်စီးရီးလေးဖြစ်ပါတယ်။ လတ်တလောမှာ ၆ အုပ်ရှိပါတယ်။ အောက်မှာအစဉ်အတိုင်းဖော်ပြပေးလိုက်ပါတယ်။ \n\n📌 About me-- ၂,၅၀၀ ကျပ် \n📌 My Favourite Days-- ၂,၅၀၀ ကျပ် \n📌 Science is Fun-- ၂,၅၀၀ ကျပ် \n📌 Oh! My Food!-- ၂,၅၀၀ ကျပ် \n📌 Our Social is Special-- ၂,၅၀၀ ကျပ် \n📌 Our Lovely Ethnics Friends-- ၂,၅၀၀ ကျပ် \n📌 6 အုပ်စလုံး -- ၁၂,၀၀၀ ကျပ် (၃၀၀၀ ကျပ်သက်သာ) \n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။"
     },
     {
         "Keywords":[
             "little explore",
             "ဝယ်"
         ],
-        "answer_my":"📖 Little Explores Book Series များ ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ ဒီ Series လေးက စာအနည်းငယ်ဖတ်နိုင်လာတဲ့ကလေးများအတွက် သင့်တော်ပါတယ်။ ဒီစီးရီးလေးက မြန်မာနိုင်ငံအပါအဝင် အိမ်နီးချင်းနိုင်ငံများရဲ့ နေရာတွေ ယဉ်ကျေးမှုတွေကို လေ့လာနိုင်မှာဖြစ်သလို ကလေးကိုယ်တိုင် အဲဒီနိုင်ငံတွေကို ခရီးသွားသလိုခံစားရမှာ ဖြစ်ပါတယ်။ လတ်တလောမှာ ၅ အုပ်ရှိပါတယ်။ အောက်မှာအစဉ်အတိုင်းဖော်ပြပေးလိုက်ပါတယ်။\n\n📌 My Magical Tour Around Myanmar-- ၃,၀၀၀ ကျပ်\n📌 Travel Around Thailand -- ၃,၀၀၀ ကျပ်\n📌 The Perfect City-- ၃,၀၀၀ ကျပ်\n📌 Discovery Malaysia-- ၃,၀၀၀ ကျပ်\n📌 The Vietnum-- ၃,၀၀၀ ကျပ်\n\n📌 ၅ အုပ်စလုံး -- ၁၂,၀၀၀ ကျပ် (၃၀၀၀ ကျပ်သက်သာ)\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Little Explores Book Series များ ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ ဒီ Series လေးက စာအနည်းငယ်ဖတ်နိုင်လာတဲ့ကလေးများအတွက် သင့်တော်ပါတယ်။ ဒီစီးရီးလေးက မြန်မာနိုင်ငံအပါအဝင် အိမ်နီးချင်းနိုင်ငံများရဲ့ နေရာတွေ ယဉ်ကျေးမှုတွေကို လေ့လာနိုင်မှာဖြစ်သလို ကလေးကိုယ်တိုင် အဲဒီနိုင်ငံတွေကို ခရီးသွားသလိုခံစားရမှာ ဖြစ်ပါတယ်။ လတ်တလောမှာ ၅ အုပ်ရှိပါတယ်။ အောက်မှာအစဉ်အတိုင်းဖော်ပြပေးလိုက်ပါတယ်။\n\n📌 My Magical Tour Around Myanmar-- ၃,၀၀၀ ကျပ်\n📌 Travel Around Thailand -- ၃,၀၀၀ ကျပ်\n📌 The Perfect City-- ၃,၀၀၀ ကျပ်\n📌 Discovery Malaysia-- ၃,၀၀၀ ကျပ်\n📌 The Vietnum-- ၃,၀၀၀ ကျပ်\n\n📌 ၅ အုပ်စလုံး -- ၁၂,၀၀၀ ကျပ် (၃၀၀၀ ကျပ်သက်သာ)\n\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n\nဘယ်ဟာဝယ်ချင်လဲ ပြောပါဗျာ။ \n"
     },
     {
         "Keywords":[
             "phonics သင်နည်း",
             "ဝယ်"
         ],
-        "answer_my":"📖 ၂နှစ်မှ ၈နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 စျေးနှုန်း - ၆၀၀၀ကျပ်\n📌 ရရှိမည့်ပုံစံ - Secured PDF (Print ထုတ်ခွင့်မရှိ)\n📌 မိဘများနှင့် ဆရာဆရာမများအတွက် ရည်ရွယ်ပါတယ်။\nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Phonics+%E1%80%9C%E1%80%99%E1%80%BA%E1%80%B8%E1%80%8A%E1%80%BD%E1%80%BE%E1%80%94%E1%80%BA",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 ၂နှစ်မှ ၈နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။\n\n📌 စျေးနှုန်း - ၆၀၀၀ကျပ်\n📌 ရရှိမည့်ပုံစံ - Secured PDF (Print ထုတ်ခွင့်မရှိ)\n📌 မိဘများနှင့် ဆရာဆရာမများအတွက် ရည်ရွယ်ပါတယ်။\nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Phonics+%E1%80%9C%E1%80%99%E1%80%BA%E1%80%B8%E1%80%8A%E1%80%BD%E1%80%BE%E1%80%94%E1%80%BA"
     },
     {
         "Keywords":[
             "box",
             "ဝယ်"
         ],
-        "answer_my":"📖 Start to Read Series ထဲက The Big Box ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Big+Box",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Start to Read Series ထဲက The Big Box ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Big+Box"
     },
     {
         "Keywords":[
             "light",
             "ဝယ်"
         ],
-        "answer_my":"📖 Start to Read Series ထဲက The Big Light ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Big+light",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Start to Read Series ထဲက The Big Light ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Big+light"
     },
     {
         "Keywords":[
             "trip",
             "ဝယ်"
         ],
-        "answer_my":"📖 Start to Read Series ထဲက The Fun Trip ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Fun+Trip",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Start to Read Series ထဲက The Fun Trip ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Fun+Trip"
     },
     {
         "Keywords":[
             "pal",
             "ဝယ်"
         ],
-        "answer_my":"📖 Start to Read Series ထဲက The Pal Cat စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+pal+cat",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Start to Read Series ထဲက The Pal Cat စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+pal+cat"
     },
     {
         "Keywords":[
             "pup",
             "ဝယ်"
         ],
-        "answer_my":"📖 Start to Read Series ထဲက The Pup In the Mud စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Pup+In+The+Mud \n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Start to Read Series ထဲက The Pup In the Mud စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Pup+In+The+Mud \n"
     },
     {
         "Keywords":[
             "wet",
             "ဝယ်"
         ],
-        "answer_my":"📖 Start to Read Series ထဲက The Wet Pet စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Wet+Pet",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Start to Read Series ထဲက The Wet Pet စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Start+to+read+The+Wet+Pet"
     },
     {
         "Keywords":[
             "day",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading & Learn Series ထဲက My Favourite Days စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။\n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ်\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ)\n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။\nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+2+My+Favourite+Days\n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading & Learn Series ထဲက My Favourite Days စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။\n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ်\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ)\n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။\nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+2+My+Favourite+Days\n"
     },
     {
         "Keywords":[
             "science",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading & Learn Series ထဲက Science is Fun စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+3+Science+is+Fun",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading & Learn Series ထဲက Science is Fun စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+3+Science+is+Fun"
     },
     {
         "Keywords":[
             "food",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading & Learn Series ထဲက Oh! My Food! စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။\n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ်\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ)\n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။\nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+4+Oh!+My+Food...!\n",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading & Learn Series ထဲက Oh! My Food! စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။\n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ်\n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ)\n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။\nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+4+Oh!+My+Food...!\n"
     },
     {
         "Keywords":[
             "social",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading & Learn Series ထဲက Our Social is Special စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+5+our+social+is+special",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading & Learn Series ထဲက Our Social is Special စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+5+our+social+is+special"
     },
     {
         "Keywords":[
             "love",
             "ဝယ်"
         ],
-        "answer_my":"📖 Reading & Learn Series ထဲက Our Lovely Ethnics Friends စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+6+our+lovely+ethnics+friends",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading & Learn Series ထဲက Our Lovely Ethnics Friends စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၂၅၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Read+%26+Learn+6+our+lovely+ethnics+friends"
     },
     {
         "Keywords":[
             "myanmar",
             "ဝယ်"
         ],
-        "answer_my":"📖 Little Explorers Series ထဲက My Magical Tour Around Myanmar စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+1_Myanmar",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Little Explorers Series ထဲက My Magical Tour Around Myanmar စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+1_Myanmar"
     },
     {
         "Keywords":[
             "thai",
             "ဝယ်"
         ],
-        "answer_my":"📖 Little Explorers Series ထဲက Travel Around Thailand စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+2_Thailand",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Little Explorers Series ထဲက Travel Around Thailand စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+2_Thailand"
     },
     {
         "Keywords":[
             "city",
             "ဝယ်"
         ],
-        "answer_my":"📖 Little Explorers Series ထဲက The Perfect City စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+3_Singapore+Journey",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Little Explorers Series ထဲက The Perfect City စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+3_Singapore+Journey"
     },
     {
         "Keywords":[
             "malay",
             "ဝယ်"
         ],
-        "answer_my":"📖 Little Explorers Series ထဲက Discovery Malaysia စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+4_Malaysia+Journey",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Little Explorers Series ထဲက Discovery Malaysia စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+4_Malaysia+Journey"
     },
     {
         "Keywords":[
             "viet",
             "ဝယ်"
         ],
-        "answer_my":"📖 Little Explorers Series ထဲက 📌 The Vietnum စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+5_The+Vietnam",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Little Explorers Series ထဲက 📌 The Vietnum စာအုပ်အား ဝယ်ယူလိုတဲ့အတွက် ကျေးဇူးပါခင်ဗျာ။ \n\n📌 စျေးနှုန်း - ၃၀၀၀ကျပ် \n📌 ရရှိမည့်ပုံစံ - Printable PDF (Print ထုတ်ခွင့်ရှိ) \n📌 Phonics သင်ပြီးစကလေးများအတွက် ရည်ရွယ်ပါတယ်။ \nဝယ်မယ်ဆိုရင် လင့်ကနေတဆင့် ဖောင်ဖြည့်ငွေလွှဲပြီး ချက်ချင်းရယူနိုင်ပါတယ်။ \nBuy Now Link- https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLScBkLuXigctK_GkDc2c5wjMj0YpHEza4lzCKhPgNMtF9Y9VbA\/viewform?usp=pp_url&entry.560813477=Little+Explore+5_The+Vietnam"
     },
     {
         "Keywords":[
             "pre",
             "kg"
         ],
-        "answer_my":"PreKG English Book (Pdf) ဖိုင်လေးကို ရယူရန် အောက်က Google Form ကို ဖြည့်ပြီးDownload link ရယူနိုင်ပါတယ်။ Form ပါအချက်အလက်များကို ဖြည့်စွက်ပြီးပါက Submit လုပ်လိုက်သည်နှင့် Download လင့်အား ရရှိမည်ဖြစ်ပါသည်။ \n\nForm Link - https:\/\/forms.gle\/C5KMLxgmNUoNyf5q9 \n\nDownload လင့်အား အယောက် ၁၀၀၀ တိတိသာ ပေးမည်ဖြစ်သည့်အတွက် အမြန်Download လုပ်ကာရ ယူပါ။",
-        "answer_th":"",
-        "answer_en":""
-    },
-    {
-        "Keywords":[
-
-        ],
-        "answer_my":"",
-        "answer_th":"",
-        "answer_en":""
-    },
-    {
-        "Keywords":[
-
-        ],
-        "answer_my":"",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"PreKG English Book (Pdf) ဖိုင်လေးကို ရယူရန် အောက်က Google Form ကို ဖြည့်ပြီးDownload link ရယူနိုင်ပါတယ်။ Form ပါအချက်အလက်များကို ဖြည့်စွက်ပြီးပါက Submit လုပ်လိုက်သည်နှင့် Download လင့်အား ရရှိမည်ဖြစ်ပါသည်။ \n\nForm Link - https:\/\/forms.gle\/C5KMLxgmNUoNyf5q9 \n\nDownload လင့်အား အယောက် ၁၀၀၀ တိတိသာ ပေးမည်ဖြစ်သည့်အတွက် အမြန်Download လုပ်ကာရ ယူပါ။"
     },
     {
         "Keywords":[
             "pdf",
             "print"
         ],
-        "answer_my":"သင်ကြားရေး (Educational) စာအုပ်တွေ ဖြစ်စေ၊ တစ်သီးပုဂ္ဂလဖတ်ရန်အတွက်ဖြစ်စေ Secured PDF စာအုပ်များမှ လွှဲ၍ PDF ဖိုင်တွေကို Print ထုတ်ခွင့် အပြည့်အဝ ပေးထားပါတယ်။ ဆရာများ၊ မိဘများအနေနဲ့ သင်ကြားရေးအတွက် လိုသလို ပရင့်ထုတ်ပြီး အသုံးပြုနိုင်ပါတယ်။ ကျောင်းများအတွက်လည်း လိုအပ်သလို ထုတ်နိုင်ပါတယ်။ သို့သော် စီးပွားဖြစ်ဈေးကွက်တွင်း ထုတ်ဝေရောင်းချမှုကိုတော့ ခွင့်မပြုပါ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"သင်ကြားရေး (Educational) စာအုပ်တွေ ဖြစ်စေ၊ တစ်သီးပုဂ္ဂလဖတ်ရန်အတွက်ဖြစ်စေ Secured PDF စာအုပ်များမှ လွှဲ၍ PDF ဖိုင်တွေကို Print ထုတ်ခွင့် အပြည့်အဝ ပေးထားပါတယ်။ ဆရာများ၊ မိဘများအနေနဲ့ သင်ကြားရေးအတွက် လိုသလို ပရင့်ထုတ်ပြီး အသုံးပြုနိုင်ပါတယ်။ ကျောင်းများအတွက်လည်း လိုအပ်သလို ထုတ်နိုင်ပါတယ်။ သို့သော် စီးပွားဖြစ်ဈေးကွက်တွင်း ထုတ်ဝေရောင်းချမှုကိုတော့ ခွင့်မပြုပါ။"
     },
     {
         "Keywords":[
             "pdf",
             "ပရင့်"
         ],
-        "answer_my":"သင်ကြားရေး (Educational) စာအုပ်တွေ ဖြစ်စေ၊ တစ်သီးပုဂ္ဂလဖတ်ရန်အတွက်ဖြစ်စေ Secured PDF စာအုပ်များမှ လွှဲ၍ PDF ဖိုင်တွေကို Print ထုတ်ခွင့် အပြည့်အဝ ပေးထားပါတယ်။ ဆရာများ၊ မိဘများအနေနဲ့ သင်ကြားရေးအတွက် လိုသလို ပရင့်ထုတ်ပြီး အသုံးပြုနိုင်ပါတယ်။ ကျောင်းများအတွက်လည်း လိုအပ်သလို ထုတ်နိုင်ပါတယ်။ သို့သော် စီးပွားဖြစ်ဈေးကွက်တွင်း ထုတ်ဝေရောင်းချမှုကိုတော့ ခွင့်မပြုပါ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"သင်ကြားရေး (Educational) စာအုပ်တွေ ဖြစ်စေ၊ တစ်သီးပုဂ္ဂလဖတ်ရန်အတွက်ဖြစ်စေ Secured PDF စာအုပ်များမှ လွှဲ၍ PDF ဖိုင်တွေကို Print ထုတ်ခွင့် အပြည့်အဝ ပေးထားပါတယ်။ ဆရာများ၊ မိဘများအနေနဲ့ သင်ကြားရေးအတွက် လိုသလို ပရင့်ထုတ်ပြီး အသုံးပြုနိုင်ပါတယ်။ ကျောင်းများအတွက်လည်း လိုအပ်သလို ထုတ်နိုင်ပါတယ်။ သို့သော် စီးပွားဖြစ်ဈေးကွက်တွင်း ထုတ်ဝေရောင်းချမှုကိုတော့ ခွင့်မပြုပါ။"
     },
     {
         "Keywords":[
             "bridge",
             "pdf"
         ],
-        "answer_my":"📌 PDF က Printable PDF ဖြစ်လို့ Print ထုတ်ပြီး သုံးလို့ရပါတယ်။\n📌 Presentation Software (Windows\/Android) ပါပါရှိပါတယ်။\n\nဝယ်ယူလိုရင် \"Bridge ဝယ်ချင်တယ်\" လို့ စာရိုက်ပို့ပေးပါ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📌 PDF က Printable PDF ဖြစ်လို့ Print ထုတ်ပြီး သုံးလို့ရပါတယ်။\n📌 Presentation Software (Windows\/Android) ပါပါရှိပါတယ်။\n\nဝယ်ယူလိုရင် \"Bridge ဝယ်ချင်တယ်\" လို့ စာရိုက်ပို့ပေးပါ။"
     },
     {
         "Keywords":[
             "secured pdf"
         ],
-        "answer_my":"Secured PDF ဆိုတာ Print ထုတ်ခွင့်မရှိတဲ့ PDF ဖိုင်ဖြစ်ပြီး စာဖတ်ရုံသက်သက်အတွက် ရည်ရွယ်ပါတယ်။ ဖတ်စာအုပ်တွေအတွက် ဒီပုံစံကို အသုံးပြုပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"Secured PDF ဆိုတာ Print ထုတ်ခွင့်မရှိတဲ့ PDF ဖိုင်ဖြစ်ပြီး စာဖတ်ရုံသက်သက်အတွက် ရည်ရွယ်ပါတယ်။ ဖတ်စာအုပ်တွေအတွက် ဒီပုံစံကို အသုံးပြုပါတယ်။"
     },
     {
         "Keywords":[
             "printable pdf"
         ],
-        "answer_my":"Printable PDF ဆိုတာ Print ထုတ်ခွင့် အပြည့်အဝရှိတဲ့ PDF ဖိုင်ဖြစ်ပါတယ်။ သင်ကြားရေးစာအုပ်တွေအတွက် ဒီပုံစံကို အဓိကသုံးပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"Printable PDF ဆိုတာ Print ထုတ်ခွင့် အပြည့်အဝရှိတဲ့ PDF ဖိုင်ဖြစ်ပါတယ်။ သင်ကြားရေးစာအုပ်တွေအတွက် ဒီပုံစံကို အဓိကသုံးပါတယ်။"
     },
     {
         "Keywords":[
             "presentation"
         ],
-        "answer_my":"သင်ကြားရေးစာအုပ်တွေနဲ့အတူ Presentation Software ပါ ပါရှိပါတယ်။ ဒီဆော့ဝဲကို Windows နဲ့ Android စက်ပစ္စည်းနှစ်မျိုးလုံးမှာ အသုံးပြုနိုင်ပါတယ်။ Software တွင် သက်ဆိုင်ရာ သင်ရိုးအလိုက် ရုပ်ပုံများ၊ အသံများ၊ ဗီဒီယိုများ တစ်ပါတည်း ပါဝင်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"သင်ကြားရေးစာအုပ်တွေနဲ့အတူ Presentation Software ပါ ပါရှိပါတယ်။ ဒီဆော့ဝဲကို Windows နဲ့ Android စက်ပစ္စည်းနှစ်မျိုးလုံးမှာ အသုံးပြုနိုင်ပါတယ်။ Software တွင် သက်ဆိုင်ရာ သင်ရိုးအလိုက် ရုပ်ပုံများ၊ အသံများ၊ ဗီဒီယိုများ တစ်ပါတည်း ပါဝင်ပါတယ်။"
     },
     {
         "Keywords":[
             "flipbook"
         ],
-        "answer_my":"ဖတ်စာအားလုံးကို Flipbook ပုံစံဖြင့် အခမဲ့ ဖတ်ရှုနိုင်ပါတယ်။ ဖုန်း၊ တက်ဘလက်၊ ကွန်ပျူတာ အားလုံးမှာ Browser ကနေ တိုက်ရိုက်ဖွင့်ဖတ်လို့ရပါတယ်။ လူကြီးမင်းဖတ်ရှုလေ့လာချင်တဲ့ ကျနော်တို့ရဲ့ စာအုပ်အမည်နောက်မှာ Flip book လို့ရိုက်ထည့်ရင် လင့်ပို့ပေးပါမယ်။ ဥပမာ- Bridge Flipbook",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဖတ်စာအားလုံးကို Flipbook ပုံစံဖြင့် အခမဲ့ ဖတ်ရှုနိုင်ပါတယ်။ ဖုန်း၊ တက်ဘလက်၊ ကွန်ပျူတာ အားလုံးမှာ Browser ကနေ တိုက်ရိုက်ဖွင့်ဖတ်လို့ရပါတယ်။ လူကြီးမင်းဖတ်ရှုလေ့လာချင်တဲ့ ကျနော်တို့ရဲ့ စာအုပ်အမည်နောက်မှာ Flip book လို့ရိုက်ထည့်ရင် လင့်ပို့ပေးပါမယ်။ ဥပမာ- Bridge Flipbook"
     },
     {
         "Keywords":[
             "စာအုပ်",
             "စာရင်း"
         ],
-        "answer_my":"Kreative Kid’s Lab ရဲ့ စာအုပ်စာရင်းတွေအနေနဲ့က သင်ကြားရေးနှင့် ဖတ်စရာ ဆိုပြီး နှစ်ပိုင်းရှိပါတယ်။\n\nသင်ကြားရေးအတွက်ဆိုရင် \n\n📖Pre KG English - Student Books ( ၃ အုပ်ထွက်ရှိပြီး)\n📖English Bridge Student book+ Teacher Guide (ဆယ်ကျော်သက်အတွက် Phonics အခြေခံကောင်း)\n📖Spoken English (ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အခြေခံကောင်း)\n📖Computer Science Course Student Books ( အသက် ၆ နှစ်မှ စသင်သည့် မြန်မာနိုင်ငံရဲ့ အကောင်းဆုံး ကွန်ပျူတာသိပ္ပံသင်ရိုး) Level 4 အထိ ထွက်ရှိပြီး\n📖၂ နှစ်မှ ၈ နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် (မိဘများနှင့် ဆရာဆရာမများအတွက်)\n\nဖတ်စာနှင့်ပတ်သက်ရင်\n📖 Start to Read (၆ အုပ်) (Phonics သင်ပြီးစ ကလေးများအတွက် အလွန်ကောင်း)\n📖 Reading Fun (၆ အုပ်) ( စာပိုဒ်တိုတိုလေးတွေ နဲ့ ပျော်ပျော်ရွှင်ရွှင်နှင့် Reading to Comprehensions အတွက်ပေါင်းကူးဖြစ်စေ)\n📖 Read & Learn Series (၆ အုပ်) (စာဖတ်ခြင်းကတဆင့် မိမိအကြောင်းကနေ Essay တိုလေးတွေကို လေ့ကျင့်စေနိုင်)\n📖 Little Explore Series (၆ အုပ်) (မြန်မာနိုင်ငံမှစတင်ပြီး အာဆီယံနိုင်ငံများကို လေ့လာပြီး ကိုယ်တိုင်အလည်သွားသလီု ခံစားစေနိုင်)\n\nအထက်ပါ စာအုပ်များ ထွက်ရှိထားပါတယ်။ အဆိုပါ စာအုပ်များကို ebook (pdf) အဖြစ် ဝယ်နိုင်ပါပြီ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"Kreative Kid’s Lab ရဲ့ စာအုပ်စာရင်းတွေအနေနဲ့က သင်ကြားရေးနှင့် ဖတ်စရာ ဆိုပြီး နှစ်ပိုင်းရှိပါတယ်။\n\nသင်ကြားရေးအတွက်ဆိုရင် \n\n📖Pre KG English - Student Books ( ၃ အုပ်ထွက်ရှိပြီး)\n📖English Bridge Student book+ Teacher Guide (ဆယ်ကျော်သက်အတွက် Phonics အခြေခံကောင်း)\n📖Spoken English (ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အခြေခံကောင်း)\n📖Computer Science Course Student Books ( အသက် ၆ နှစ်မှ စသင်သည့် မြန်မာနိုင်ငံရဲ့ အကောင်းဆုံး ကွန်ပျူတာသိပ္ပံသင်ရိုး) Level 4 အထိ ထွက်ရှိပြီး\n📖၂ နှစ်မှ ၈ နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် (မိဘများနှင့် ဆရာဆရာမများအတွက်)\n\nဖတ်စာနှင့်ပတ်သက်ရင်\n📖 Start to Read (၆ အုပ်) (Phonics သင်ပြီးစ ကလေးများအတွက် အလွန်ကောင်း)\n📖 Reading Fun (၆ အုပ်) ( စာပိုဒ်တိုတိုလေးတွေ နဲ့ ပျော်ပျော်ရွှင်ရွှင်နှင့် Reading to Comprehensions အတွက်ပေါင်းကူးဖြစ်စေ)\n📖 Read & Learn Series (၆ အုပ်) (စာဖတ်ခြင်းကတဆင့် မိမိအကြောင်းကနေ Essay တိုလေးတွေကို လေ့ကျင့်စေနိုင်)\n📖 Little Explore Series (၆ အုပ်) (မြန်မာနိုင်ငံမှစတင်ပြီး အာဆီယံနိုင်ငံများကို လေ့လာပြီး ကိုယ်တိုင်အလည်သွားသလီု ခံစားစေနိုင်)\n\nအထက်ပါ စာအုပ်များ ထွက်ရှိထားပါတယ်။ အဆိုပါ စာအုပ်များကို ebook (pdf) အဖြစ် ဝယ်နိုင်ပါပြီ။"
     },
     {
         "Keywords":[
             "စာအုပ်",
             "ဝယ်"
         ],
-        "answer_my":"ဘယ်စာအုပ်ဝယ်ချင်တာလဲခင်ဗျာ...။ Kreative Kid’s Lab ရဲ့ စာအုပ်စာရင်းတွေအနေနဲ့က သင်ကြားရေးနှင့် ဖတ်စရာ ဆိုပြီး နှစ်ပိုင်းရှိပါတယ်။\n\nသင်ကြားရေးအတွက်ဆိုရင် \n\n📖Pre KG English - Student Books ( ၃ အုပ်ထွက်ရှိပြီး)\n📖English Bridge Student book+ Teacher Guide (ဆယ်ကျော်သက်အတွက် Phonics အခြေခံကောင်း)\n📖Spoken English (ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အခြေခံကောင်း)\n📖Computer Science Course Student Books ( အသက် ၆ နှစ်မှ စသင်သည့် မြန်မာနိုင်ငံရဲ့ အကောင်းဆုံး ကွန်ပျူတာသိပ္ပံသင်ရိုး) Level 4 အထိ ထွက်ရှိပြီး\n📖၂ နှစ်မှ ၈ နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် (မိဘများနှင့် ဆရာဆရာမများအတွက်)\n\nဖတ်စာနှင့်ပတ်သက်ရင်\n📖 Start to Read (၆ အုပ်) (Phonics သင်ပြီးစ ကလေးများအတွက် အလွန်ကောင်း)\n📖 Reading Fun (၆ အုပ်) ( စာပိုဒ်တိုတိုလေးတွေ နဲ့ ပျော်ပျော်ရွှင်ရွှင်နှင့် Reading to Comprehensions အတွက်ပေါင်းကူးဖြစ်စေ)\n📖 Read & Learn Series (၆ အုပ်) (စာဖတ်ခြင်းကတဆင့် မိမိအကြောင်းကနေ Essay တိုလေးတွေကို လေ့ကျင့်စေနိုင်)\n📖 Little Explore Series (၆ အုပ်) (မြန်မာနိုင်ငံမှစတင်ပြီး အာဆီယံနိုင်ငံများကို လေ့လာပြီး ကိုယ်တိုင်အလည်သွားသလီု ခံစားစေနိုင်)\n\nအထက်ပါ စာအုပ်များ ထွက်ရှိထားပါတယ်။ အဆိုပါ စာအုပ်များကို ebook (pdf) အဖြစ် ဝယ်နိုင်ပါပြီ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဘယ်စာအုပ်ဝယ်ချင်တာလဲခင်ဗျာ...။ Kreative Kid’s Lab ရဲ့ စာအုပ်စာရင်းတွေအနေနဲ့က သင်ကြားရေးနှင့် ဖတ်စရာ ဆိုပြီး နှစ်ပိုင်းရှိပါတယ်။\n\nသင်ကြားရေးအတွက်ဆိုရင် \n\n📖Pre KG English - Student Books ( ၃ အုပ်ထွက်ရှိပြီး)\n📖English Bridge Student book+ Teacher Guide (ဆယ်ကျော်သက်အတွက် Phonics အခြေခံကောင်း)\n📖Spoken English (ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အခြေခံကောင်း)\n📖Computer Science Course Student Books ( အသက် ၆ နှစ်မှ စသင်သည့် မြန်မာနိုင်ငံရဲ့ အကောင်းဆုံး ကွန်ပျူတာသိပ္ပံသင်ရိုး) Level 4 အထိ ထွက်ရှိပြီး\n📖၂ နှစ်မှ ၈ နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် (မိဘများနှင့် ဆရာဆရာမများအတွက်)\n\nဖတ်စာနှင့်ပတ်သက်ရင်\n📖 Start to Read (၆ အုပ်) (Phonics သင်ပြီးစ ကလေးများအတွက် အလွန်ကောင်း)\n📖 Reading Fun (၆ အုပ်) ( စာပိုဒ်တိုတိုလေးတွေ နဲ့ ပျော်ပျော်ရွှင်ရွှင်နှင့် Reading to Comprehensions အတွက်ပေါင်းကူးဖြစ်စေ)\n📖 Read & Learn Series (၆ အုပ်) (စာဖတ်ခြင်းကတဆင့် မိမိအကြောင်းကနေ Essay တိုလေးတွေကို လေ့ကျင့်စေနိုင်)\n📖 Little Explore Series (၆ အုပ်) (မြန်မာနိုင်ငံမှစတင်ပြီး အာဆီယံနိုင်ငံများကို လေ့လာပြီး ကိုယ်တိုင်အလည်သွားသလီု ခံစားစေနိုင်)\n\nအထက်ပါ စာအုပ်များ ထွက်ရှိထားပါတယ်။ အဆိုပါ စာအုပ်များကို ebook (pdf) အဖြစ် ဝယ်နိုင်ပါပြီ။"
     },
     {
         "Keywords":[
             "ရ",
             "ပါပြီ"
         ],
-        "answer_my":"ဟုတ်ကဲ့ပါ။ လိုအပ်တာရှိရင် စာပို့ထားနိုင်ပါတယ်ဗျာ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဟုတ်ကဲ့ပါ။ လိုအပ်တာရှိရင် စာပို့ထားနိုင်ပါတယ်ဗျာ။"
     },
     {
         "Keywords":[
             "Form",
             "အဆင်မပြေ"
         ],
-        "answer_my":"လင့်လေးကို ကော်ပီယူကာ Browser မှ ဝင်လို့ရပါတယ်ခင်ဗျာ။ Chrome , Safari အစရှိတဲ့ Browser များမှ ဝင်လိုက်ရင် အဆင်ပြေနိုင်ပါတယ်။ အဆင်ပြေပါစေဗျာ။ အဆင်မပြေရင် စာချန်ထားခဲ့နိုင်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"လင့်လေးကို ကော်ပီယူကာ Browser မှ ဝင်လို့ရပါတယ်ခင်ဗျာ။ Chrome , Safari အစရှိတဲ့ Browser များမှ ဝင်လိုက်ရင် အဆင်ပြေနိုင်ပါတယ်။ အဆင်ပြေပါစေဗျာ။ အဆင်မပြေရင် စာချန်ထားခဲ့နိုင်ပါတယ်။"
     },
     {
         "Keywords":[
             "ကျေးဇူး",
             "ပါ"
         ],
-        "answer_my":"ဟုတ်ကဲ့ ရပါတယ်ဗျာ။ Kreative Kids Lab ရဲ့ ပညာရေးဆိုင်ရာ စာအုပ်တွေနဲ့ ပတ်သက်ပြီး အချိန်မရွေးလာမေးနိုင်ပါတယ်ဗျာ။ Admin တွေလိုင်းတက်ချိန်ဆိုရင်လည်း Admin တွေဖြေပါလိမ့်မယ်။ Admin တွေလိုင်းပေါ်မရှိလည်း K-Bot က အကျိုးအကြောင်းဖြေပေးပါလိမ့်မယ်။ ကျနော်တို့ရဲ့ ထွက်ရှိထားတဲ့ စာအုပ်တွေအကြောင်း သိချင်ရင်လည်း “ စာအုပ်စာရင်း လေးသိချင်ပါတယ်” လို့ရေးပေးလိုက်ပါနော်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဟုတ်ကဲ့ ရပါတယ်ဗျာ။ Kreative Kids Lab ရဲ့ ပညာရေးဆိုင်ရာ စာအုပ်တွေနဲ့ ပတ်သက်ပြီး အချိန်မရွေးလာမေးနိုင်ပါတယ်ဗျာ။ Admin တွေလိုင်းတက်ချိန်ဆိုရင်လည်း Admin တွေဖြေပါလိမ့်မယ်။ Admin တွေလိုင်းပေါ်မရှိလည်း K-Bot က အကျိုးအကြောင်းဖြေပေးပါလိမ့်မယ်။ ကျနော်တို့ရဲ့ ထွက်ရှိထားတဲ့ စာအုပ်တွေအကြောင်း သိချင်ရင်လည်း “ စာအုပ်စာရင်း လေးသိချင်ပါတယ်” လို့ရေးပေးလိုက်ပါနော်။"
     },
     {
         "Keywords":[
             "စာအုပ်",
             "လိုချင်"
         ],
-        "answer_my":"ကျေးဇူးပြုပြီး ဘယ်စာအုပ်လေးလိုချင်တာလဲ အသေးစိတ်ပြောပါ။ 🤔\nကျနော်တို့တွင် အသက်အရွယ်အလိုက် စာအုပ်တွေအများကြီးရှိပါတယ်။ ☺️\n\nသင်ကြားရေးနဲ့ပတ်သက်ရင်\n📖 Nursery Phonics Worksheet, \n📖 Pre KG English (Series 1-3)၊ \n📖 English Bridge (၉နှစ်မှ ၃၀ ကျော်လူငယ်များအတွက် Phonics)\n📖 Spoken English (လူငယ်များအတွက် English Speaking အခြေခံ)\nများကိုယ်ပိုင်ထွက်ရှိထားပြီး\nဖတ်ဖိုစာအုပ်နှင့်ပတ်သက်ရင်\n📖 Start to Read (၆ အုပ်)\n📖 Reading Fun (၆ အုပ်)\n📖 Read & Learn Series (၆ အုပ်)\n📖 Little Explore Series (၆ အုပ်) \nထွက်ရှိထားပါတယ်။ \n\n🆓အခမဲ့အနေနဲ့ကတော့ လတ်တလောမှာ Pre KG English Series ထဲက Pre KG-1 (Myself and My Family-1) ကိုအခမဲ့ ဝေမျှထားပါတယ်။ \n\n🤔 တကယ်လို့ ဖောင်ဖြည့်ဖို့မအားဘူးဆိုရင် (PreKG-1 ) Package လေးကို ၁၀၀၀၀ (စာဖြင့်- တစ်သောင်း) ကျပ်သာဖြင့် ဝယ်ယူလို့ရပါတယ်။ \n\n📦 Package လေးမှာ \n📖 Print ထုတ်နိုင်သော Pdf file\n📱 စာအုပ်နှင့်တွဲသုံးသော Presentation Plus (Windows or Androd apk)\n🆔 Presentation Plus တစ်နှစ်တာ သုံးစွဲခွင့် Code \nတို့ပါဝင်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ကျေးဇူးပြုပြီး ဘယ်စာအုပ်လေးလိုချင်တာလဲ အသေးစိတ်ပြောပါ။ 🤔\nကျနော်တို့တွင် အသက်အရွယ်အလိုက် စာအုပ်တွေအများကြီးရှိပါတယ်။ ☺️\n\nသင်ကြားရေးနဲ့ပတ်သက်ရင်\n📖 Nursery Phonics Worksheet, \n📖 Pre KG English (Series 1-3)၊ \n📖 English Bridge (၉နှစ်မှ ၃၀ ကျော်လူငယ်များအတွက် Phonics)\n📖 Spoken English (လူငယ်များအတွက် English Speaking အခြေခံ)\nများကိုယ်ပိုင်ထွက်ရှိထားပြီး\nဖတ်ဖိုစာအုပ်နှင့်ပတ်သက်ရင်\n📖 Start to Read (၆ အုပ်)\n📖 Reading Fun (၆ အုပ်)\n📖 Read & Learn Series (၆ အုပ်)\n📖 Little Explore Series (၆ အုပ်) \nထွက်ရှိထားပါတယ်။ \n\n🆓အခမဲ့အနေနဲ့ကတော့ လတ်တလောမှာ Pre KG English Series ထဲက Pre KG-1 (Myself and My Family-1) ကိုအခမဲ့ ဝေမျှထားပါတယ်။ \n\n🤔 တကယ်လို့ ဖောင်ဖြည့်ဖို့မအားဘူးဆိုရင် (PreKG-1 ) Package လေးကို ၁၀၀၀၀ (စာဖြင့်- တစ်သောင်း) ကျပ်သာဖြင့် ဝယ်ယူလို့ရပါတယ်။ \n\n📦 Package လေးမှာ \n📖 Print ထုတ်နိုင်သော Pdf file\n📱 စာအုပ်နှင့်တွဲသုံးသော Presentation Plus (Windows or Androd apk)\n🆔 Presentation Plus တစ်နှစ်တာ သုံးစွဲခွင့် Code \nတို့ပါဝင်ပါတယ်။"
     },
     {
         "Keywords":[
             "หนังสือ",
             "ต้องการ"
         ],
-        "answer_my":"กรุณาแจ้งรายละเอียดหนังสือที่คุณต้องการ 🤔\nเรามีหนังสือมากมายสำหรับทุกช่วงวัย ☺️\n\nสำหรับด้านการศึกษา:\n📖 แบบฝึกหัดการอ่านออกเสียงสำหรับเด็กอนุบาล\n📖 ภาษาอังกฤษระดับก่อนอนุบาล (ชุดที่ 1-3)\n📖 English Bridge (การอ่านออกเสียงสำหรับเยาวชนอายุ 9-30 ปี)\n📖 Spoken English (การพูดภาษาอังกฤษขั้นพื้นฐานสำหรับเยาวชน)\n\nสำหรับหนังสืออ่าน:\n📖 Start to Read (6 เล่ม)\n📖 Reading Fun (6 เล่ม)\n📖 Read & Learn Series (6 เล่ม)\n📖 Little Explore Series (6 เล่ม)\n\n🆓 ขณะนี้เรากำลังแจกหนังสือ Pre KG-1 (Myself and My Family-1) จากชุดภาษาอังกฤษระดับก่อนอนุบาลฟรี\n\n🤔 หากคุณไม่ต้องการกรอกแบบฟอร์ม คุณสามารถซื้อแพ็คเกจ (PreKG-1) ได้ในราคาเพียง 10,000 จัต (เขียนเป็นตัวเลข - หมื่น)\n\n📦 แพ็คเกจประกอบด้วย\n📖 ไฟล์ PDF สำหรับพิมพ์\n📱 โปรแกรม Presentation Plus (ไฟล์ APK สำหรับ Windows หรือ Android) สำหรับใช้กับหนังสือ\n🆔 รหัสใบอนุญาตใช้งาน Presentation Plus หนึ่งปี",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"กรุณาแจ้งรายละเอียดหนังสือที่คุณต้องการ 🤔\nเรามีหนังสือมากมายสำหรับทุกช่วงวัย ☺️\n\nสำหรับด้านการศึกษา:\n📖 แบบฝึกหัดการอ่านออกเสียงสำหรับเด็กอนุบาล\n📖 ภาษาอังกฤษระดับก่อนอนุบาล (ชุดที่ 1-3)\n📖 English Bridge (การอ่านออกเสียงสำหรับเยาวชนอายุ 9-30 ปี)\n📖 Spoken English (การพูดภาษาอังกฤษขั้นพื้นฐานสำหรับเยาวชน)\n\nสำหรับหนังสืออ่าน:\n📖 Start to Read (6 เล่ม)\n📖 Reading Fun (6 เล่ม)\n📖 Read & Learn Series (6 เล่ม)\n📖 Little Explore Series (6 เล่ม)\n\n🆓 ขณะนี้เรากำลังแจกหนังสือ Pre KG-1 (Myself and My Family-1) จากชุดภาษาอังกฤษระดับก่อนอนุบาลฟรี\n\n🤔 หากคุณไม่ต้องการกรอกแบบฟอร์ม คุณสามารถซื้อแพ็คเกจ (PreKG-1) ได้ในราคาเพียง 10,000 จัต (เขียนเป็นตัวเลข - หมื่น)\n\n📦 แพ็คเกจประกอบด้วย\n📖 ไฟล์ PDF สำหรับพิมพ์\n📱 โปรแกรม Presentation Plus (ไฟล์ APK สำหรับ Windows หรือ Android) สำหรับใช้กับหนังสือ\n🆔 รหัสใบอนุญาตใช้งาน Presentation Plus หนึ่งปี"
     },
     {
         "Keywords":[
             "သင်ကြားရေး"
         ],
-        "answer_my":"သင်ကြားရေးစာအုပ်စုထဲမှာ အောက်ပါစာအုပ်တွေ ပါဝင်ပါတယ်။\n\n📖 Pre KG English (၃အုပ်)\n📖 English Bridge (Student + Teacher Guide)\n📖 Spoken English\n📖 Computer Science Course (Level 1-4)\n📖 Phonics သင်နည်းလမ်းညွှန်",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"သင်ကြားရေးစာအုပ်စုထဲမှာ အောက်ပါစာအုပ်တွေ ပါဝင်ပါတယ်။\n\n📖 Pre KG English (၃အုပ်)\n📖 English Bridge (Student + Teacher Guide)\n📖 Spoken English\n📖 Computer Science Course (Level 1-4)\n📖 Phonics သင်နည်းလမ်းညွှန်"
     },
     {
         "Keywords":[
             "ဖတ်စာ"
         ],
-        "answer_my":"ဖတ်စုပ်စုထဲမှာ အောက်ပါစာအုပ်တွေ ပါဝင်ပါတယ်။ \n\n📖 Start to Read (၆အုပ်) \n📖 Reading Fun (၆အုပ်) \n📖 Read & Learn Series (၆အုပ်) \n📖 Little Explore Series (၆အုပ်)",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဖတ်စုပ်စုထဲမှာ အောက်ပါစာအုပ်တွေ ပါဝင်ပါတယ်။ \n\n📖 Start to Read (၆အုပ်) \n📖 Reading Fun (၆အုပ်) \n📖 Read & Learn Series (၆အုပ်) \n📖 Little Explore Series (၆အုပ်)"
     },
     {
         "Keywords":[
             "english bridge"
         ],
-        "answer_my":"📖 English Bridge - Student Book + Teacher Guide ပါဝင်ပါတယ်။ ဆယ်ကျော်သက်အရွယ်များအတွက် Phonics အခြေခံကောင်းရစေရန် နှင့် စာဖတ်နိုင်ရန်အတွက် အထူးရေးသားထားတာဖြစ်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 English Bridge - Student Book + Teacher Guide ပါဝင်ပါတယ်။ ဆယ်ကျော်သက်အရွယ်များအတွက် Phonics အခြေခံကောင်းရစေရန် နှင့် စာဖတ်နိုင်ရန်အတွက် အထူးရေးသားထားတာဖြစ်ပါတယ်။"
     },
     {
         "Keywords":[
             "spoken english"
         ],
-        "answer_my":"📖 Spoken English - ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အင်္ဂလိပ်စကားပြောအခြေခံကောင်းအတွက် ရည်ရွယ်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Spoken English - ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အင်္ဂလိပ်စကားပြောအခြေခံကောင်းအတွက် ရည်ရွယ်ပါတယ်။"
     },
     {
         "Keywords":[
             "computer science"
         ],
-        "answer_my":"📖 Computer Science Course - အသက် ၆နှစ်မှ စတင်သင်နိုင်သည့် မြန်မာနိုင်ငံရဲ့ အကောင်းဆုံး ကွန်ပျူတာသိပ္ပံသင်ရိုးဖြစ်ပါတယ်။ Level ၁ မှ Level ၄ အထိ ထွက်ရှိပြီး Student Books အနေနဲ့ ရရှိနိုင်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Computer Science Course - အသက် ၆နှစ်မှ စတင်သင်နိုင်သည့် မြန်မာနိုင်ငံရဲ့ အကောင်းဆုံး ကွန်ပျူတာသိပ္ပံသင်ရိုးဖြစ်ပါတယ်။ Level ၁ မှ Level ၄ အထိ ထွက်ရှိပြီး Student Books အနေနဲ့ ရရှိနိုင်ပါတယ်။"
     },
     {
         "Keywords":[
             "phonics"
         ],
-        "answer_my":"📖 ၂နှစ်မှ ၈နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် - မိဘများနှင့် ဆရာဆရာမများအတွက် ရည်ရွယ်ပြီး ကလေးငယ်များကို Phonics သင်ကြားနည်းကို Lesson Plan များနှင့်တကွ အသေးစိတ်ရှင်းပြထားပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 ၂နှစ်မှ ၈နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် - မိဘများနှင့် ဆရာဆရာမများအတွက် ရည်ရွယ်ပြီး ကလေးငယ်များကို Phonics သင်ကြားနည်းကို Lesson Plan များနှင့်တကွ အသေးစိတ်ရှင်းပြထားပါတယ်။"
     },
     {
         "Keywords":[
             "start to read"
         ],
-        "answer_my":"📖 Start to Read (၆အုပ်) - Phonics သင်ပြီးစ ကလေးငယ်များအတွက် အထူးသင့်တော်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Start to Read (၆အုပ်) - Phonics သင်ပြီးစ ကလေးငယ်များအတွက် အထူးသင့်တော်ပါတယ်။"
     },
     {
         "Keywords":[
             "reading fun"
         ],
-        "answer_my":"📖 Reading Fun (၆အုပ်) - စာပိုဒ်တိုတိုလေးတွေနဲ့ ပျော်ရွှင်စွာ ဖတ်ရှုနိုင်ပြီး Reading to Comprehension အတွက် ပေါင်းကူးတံတားဖြစ်စေမယ့် စာအုပ်တွဲဖြစ်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Reading Fun (၆အုပ်) - စာပိုဒ်တိုတိုလေးတွေနဲ့ ပျော်ရွှင်စွာ ဖတ်ရှုနိုင်ပြီး Reading to Comprehension အတွက် ပေါင်းကူးတံတားဖြစ်စေမယ့် စာအုပ်တွဲဖြစ်ပါတယ်။"
     },
     {
         "Keywords":[
             "read & learn"
         ],
-        "answer_my":"📖 Read & Learn Series (၆အုပ်) - စာဖတ်ခြင်းကနေ မိမိအကြောင်းအပါအဝင် အက်ဆေး (Essay) တိုလေးတွေ ကိုယ်တိုင်ရေးသားလေ့ကျင့်နိုင်စေမယ့် စာအုပ်တွဲဖြစ်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Read & Learn Series (၆အုပ်) - စာဖတ်ခြင်းကနေ မိမိအကြောင်းအပါအဝင် အက်ဆေး (Essay) တိုလေးတွေ ကိုယ်တိုင်ရေးသားလေ့ကျင့်နိုင်စေမယ့် စာအုပ်တွဲဖြစ်ပါတယ်။"
     },
     {
         "Keywords":[
             "little explore"
         ],
-        "answer_my":"📖 Little Explore Series (၆အုပ်) - မြန်မာနိုင်ငံမှ စတင်ပြီး အာဆီယံနိုင်ငံများအထိ လေ့လာနိုင်ပြီး ကိုယ်တိုင်သွားရောက်လည်ပတ်နေသလို ခံစားမှုကိုပေးစေမယ့် စာအုပ်စီးရီးဖြစ်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"📖 Little Explore Series (၆အုပ်) - မြန်မာနိုင်ငံမှ စတင်ပြီး အာဆီယံနိုင်ငံများအထိ လေ့လာနိုင်ပြီး ကိုယ်တိုင်သွားရောက်လည်ပတ်နေသလို ခံစားမှုကိုပေးစေမယ့် စာအုပ်စီးရီးဖြစ်ပါတယ်။"
     },
     {
         "Keywords":[
             "ဈေး"
         ],
-        "answer_my":"စိတ်ဝင်စားတဲ့အတွက် ကျေးဇူးပါ။ ကျွန်တော်တို့ရဲ့ ebook အားလုံးကို PDF အနေနဲ့ ရရှိနိုင်ပါတယ်။ စာအုပ်တစ်အုပ်ချင်းစီရဲ့ ဈေးနှုန်းက စာအုပ်အလိုက် ကွာခြားပါတယ်။ ဘယ်စာအုပ်ကို သိချင်တာလဲ ပြောပါ၊ အသေးစိတ် ပြန်ဖြေပေးမယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"စိတ်ဝင်စားတဲ့အတွက် ကျေးဇူးပါ။ ကျွန်တော်တို့ရဲ့ ebook အားလုံးကို PDF အနေနဲ့ ရရှိနိုင်ပါတယ်။ စာအုပ်တစ်အုပ်ချင်းစီရဲ့ ဈေးနှုန်းက စာအုပ်အလိုက် ကွာခြားပါတယ်။ ဘယ်စာအုပ်ကို သိချင်တာလဲ ပြောပါ၊ အသေးစိတ် ပြန်ဖြေပေးမယ်။"
     },
     {
         "Keywords":[
             "price"
         ],
-        "answer_my":"Thank you for your interest! The price varies by book. Please tell me which book you're interested in and I'll give you the exact price.",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"Thank you for your interest! The price varies by book. Please tell me which book you're interested in and I'll give you the exact price."
     },
     {
         "Keywords":[
             "k-reader"
         ],
-        "answer_my":"ကျွန်တော်တို့မှာ K-Reader ဆိုတဲ့ ဖတ်ရှုရေးအက်ပ် (APK) ရှိပါတယ်။ Android ဖုန်းမှာ ထည့်သွင်းပြီး သုံးနိုင်ပါတယ်။ ဒါမှမဟုတ် kreader.kkl.education ကနေ Browser မှာလည်း ဖတ်လို့ရပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ကျွန်တော်တို့မှာ K-Reader ဆိုတဲ့ ဖတ်ရှုရေးအက်ပ် (APK) ရှိပါတယ်။ Android ဖုန်းမှာ ထည့်သွင်းပြီး သုံးနိုင်ပါတယ်။ ဒါမှမဟုတ် kreader.kkl.education ကနေ Browser မှာလည်း ဖတ်လို့ရပါတယ်။"
     },
     {
         "Keywords":[
             "kreader"
         ],
-        "answer_my":"K-Reader APK သို့မဟုတ် kreader.kkl.education မှာ Audio ပါဝင်တဲ့ Ebook တွေကို နားဆင်ဖတ်ရှုနိုင်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"K-Reader APK သို့မဟုတ် kreader.kkl.education မှာ Audio ပါဝင်တဲ့ Ebook တွေကို နားဆင်ဖတ်ရှုနိုင်ပါတယ်။"
     },
     {
         "Keywords":[
             "kreader.kkl.education"
         ],
-        "answer_my":"kreader.kkl.education ဆိုတာ ကျွန်တော်တို့ရဲ့ အွန်လိုင်းဖတ်ရှုရေး Website ဖြစ်ပါတယ်။ Browser ကိုဖွင့်ပြီး ဒီလိပ်စာကို ရိုက်ထည့်လိုက်ရုံပါပဲ။ APK ထည့်စရာမလိုဘဲ ဖုန်း၊ တက်ဘလက်၊ ကွန်ပျူတာ အားလုံးမှာ သုံးလို့ရပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"kreader.kkl.education ဆိုတာ ကျွန်တော်တို့ရဲ့ အွန်လိုင်းဖတ်ရှုရေး Website ဖြစ်ပါတယ်။ Browser ကိုဖွင့်ပြီး ဒီလိပ်စာကို ရိုက်ထည့်လိုက်ရုံပါပဲ။ APK ထည့်စရာမလိုဘဲ ဖုန်း၊ တက်ဘလက်၊ ကွန်ပျူတာ အားလုံးမှာ သုံးလို့ရပါတယ်။"
     },
     {
         "Keywords":[
             "audio"
         ],
-        "answer_my":"ကျွန်တော်တို့ရဲ့ Ebook အများစုမှာ Audio ပါဝင်ပါတယ်။ K-Reader APK သို့မဟုတ် kreader.kkl.education မှာ ဝင်ပြီး စာအုပ်အများစုကို အခမဲ့ နားဆင်ဖတ်ရှုနိုင်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ကျွန်တော်တို့ရဲ့ Ebook အများစုမှာ Audio ပါဝင်ပါတယ်။ K-Reader APK သို့မဟုတ် kreader.kkl.education မှာ ဝင်ပြီး စာအုပ်အများစုကို အခမဲ့ နားဆင်ဖတ်ရှုနိုင်ပါတယ်။"
     },
     {
         "Keywords":[
             "ကုဒ်"
         ],
-        "answer_my":"တချို့စာအုပ်တွေကို K-Reader မှာ ဖတ်ရှုဖို့ Access Code (ကုဒ်) လိုအပ်ပါတယ်။ ကုဒ်ကို ကျွန်တော်တို့ဆီက တိုက်ရိုက်ဝယ်ယူရရှိနိုင်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"တချို့စာအုပ်တွေကို K-Reader မှာ ဖတ်ရှုဖို့ Access Code (ကုဒ်) လိုအပ်ပါတယ်။ ကုဒ်ကို ကျွန်တော်တို့ဆီက တိုက်ရိုက်ဝယ်ယူရရှိနိုင်ပါတယ်။"
     },
     {
         "Keywords":[
             "code"
         ],
-        "answer_my":"Some books require an Access Code to read on K-Reader. You can purchase the code directly from us.",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"Some books require an Access Code to read on K-Reader. You can purchase the code directly from us."
     },
     {
         "Keywords":[
             "အခမဲ့"
         ],
-        "answer_my":"ဖတ်စာ (Reading Books) အားလုံးကို Flipbook အနေနဲ့ အခမဲ့ ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်တိုင်း အင်တာနက်ချိတ်ဆက်ထားဖို့ လိုအပ်ပါတယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဖတ်စာ (Reading Books) အားလုံးကို Flipbook အနေနဲ့ အခမဲ့ ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်တိုင်း အင်တာနက်ချိတ်ဆက်ထားဖို့ လိုအပ်ပါတယ်။"
     },
     {
         "Keywords":[
             "နမူနာ"
         ],
-        "answer_my":"စာအုပ်တစ်အုပ်ချင်းစီရဲ့ နမူနာကို Flipbook အနေနဲ့ ကျွန်တော်တို့ Page မှာ ကြည့်ရှုနိုင်ပါတယ်။ ဘယ်စာအုပ်ကို စမ်းဖတ်ချင်လဲ ပြောပါ၊ လင့်ခ်ပို့ပေးပါမယ်။ ပို့တဲ့အခါ အနောက်မှာ Flip Bookလို့ ထည့်ပေးပါ။ ဥပမာ- The Pal Cat (Flip Book)",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"စာအုပ်တစ်အုပ်ချင်းစီရဲ့ နမူနာကို Flipbook အနေနဲ့ ကျွန်တော်တို့ Page မှာ ကြည့်ရှုနိုင်ပါတယ်။ ဘယ်စာအုပ်ကို စမ်းဖတ်ချင်လဲ ပြောပါ၊ လင့်ခ်ပို့ပေးပါမယ်။ ပို့တဲ့အခါ အနောက်မှာ Flip Bookလို့ ထည့်ပေးပါ။ ဥပမာ- The Pal Cat (Flip Book)"
     },
     {
         "Keywords":[
             "sample"
         ],
-        "answer_my":"You can preview any book via Flipbook on our Page. Let me know which book you'd like to preview and I'll send you the link.",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"You can preview any book via Flipbook on our Page. Let me know which book you'd like to preview and I'll send you the link."
     },
     {
         "Keywords":[
             "refund"
         ],
-        "answer_my":"Paper Book တွေအတွက် ကျွန်တော်တို့မှာ ၇ ရက် ငွေပြန်အမ်းအာမခံချက် ရှိပါတယ်။ စာအုပ်ဝယ်ပြီး ၇ ရက်အတွင်း မကြိုက်ဘူးဆိုရင် ငွေကို ၁၀၀% ပြန်အမ်းပေးပါမယ်။ ebook (PDF) များအတွက်တော့ အကြုံးမဝင်ပါဘူး။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"Paper Book တွေအတွက် ကျွန်တော်တို့မှာ ၇ ရက် ငွေပြန်အမ်းအာမခံချက် ရှိပါတယ်။ စာအုပ်ဝယ်ပြီး ၇ ရက်အတွင်း မကြိုက်ဘူးဆိုရင် ငွေကို ၁၀၀% ပြန်အမ်းပေးပါမယ်။ ebook (PDF) များအတွက်တော့ အကြုံးမဝင်ပါဘူး။"
     },
     {
         "Keywords":[
             "ပြန်အမ်း"
         ],
-        "answer_my":"Paper Book တွေအတွက် ကျွန်တော်တို့မှာ ၇ ရက် ငွေပြန်အမ်းအာမခံချက် ရှိပါတယ်။ စာအုပ်ဝယ်ပြီး ၇ ရက်အတွင်း မကြိုက်ဘူးဆိုရင် ငွေကို ၁၀၀% ပြန်အမ်းပေးပါမယ်။ ebook (PDF) များအတွက်တော့ အကြုံးမဝင်ပါဘူး။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"Paper Book တွေအတွက် ကျွန်တော်တို့မှာ ၇ ရက် ငွေပြန်အမ်းအာမခံချက် ရှိပါတယ်။ စာအုပ်ဝယ်ပြီး ၇ ရက်အတွင်း မကြိုက်ဘူးဆိုရင် ငွေကို ၁၀၀% ပြန်အမ်းပေးပါမယ်။ ebook (PDF) များအတွက်တော့ အကြုံးမဝင်ပါဘူး။"
     },
     {
         "Keywords":[
             "လိုချင်",
             "ပါတယ်"
         ],
-        "answer_my":"ဟုတ်ကဲ့ ဘာလိုချင်တာလဲခင်ဗျ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဟုတ်ကဲ့ ဘာလိုချင်တာလဲခင်ဗျ။"
     },
     {
         "Keywords":[
             "ဝယ်ချင်",
             "ပါတယ်"
         ],
-        "answer_my":"ဟုတ်ကဲ့ ဘာစာအုပ်ဝယ်ချင်တာလဲ ခင်ဗျ...။ Kreative Kid’s Lab ရဲ့ စာအုပ်စာရင်းတွေအနေနဲ့က သင်ကြားရေးနှင့် ဖတ်စရာ ဆိုပြီး နှစ်ပိုင်းရှိပါတယ်။\n\nသင်ကြားရေးအတွက်ဆိုရင် \n\n📖Pre KG English - Student Books ( ၃ အုပ်ထွက်ရှိပြီး)\n📖English Bridge Student book+ Teacher Guide (ဆယ်ကျော်သက်အတွက် Phonics အခြေခံကောင်း)\n📖Spoken English (ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အခြေခံကောင်း)\n📖Computer Science Course Student Books ( အသက် ၆ နှစ်မှ စသင်သည့် မြန်မာနိုင်ငံရဲ့ အကောင်းဆုံး ကွန်ပျူတာသိပ္ပံသင်ရိုး) Level 4 အထိ ထွက်ရှိပြီး\n📖၂ နှစ်မှ ၈ နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် (မိဘများနှင့် ဆရာဆရာမများအတွက်)\n\nဖတ်စာနှင့်ပတ်သက်ရင်\n📖 Start to Read (၆ အုပ်) (Phonics သင်ပြီးစ ကလေးများအတွက် အလွန်ကောင်း)\n📖 Reading Fun (၆ အုပ်) ( စာပိုဒ်တိုတိုလေးတွေ နဲ့ ပျော်ပျော်ရွှင်ရွှင်နှင့် Reading to Comprehensions အတွက်ပေါင်းကူးဖြစ်စေ)\n📖 Read & Learn Series (၆ အုပ်) (စာဖတ်ခြင်းကတဆင့် မိမိအကြောင်းကနေ Essay တိုလေးတွေကို လေ့ကျင့်စေနိုင်)\n📖 Little Explore Series (၆ အုပ်) (မြန်မာနိုင်ငံမှစတင်ပြီး အာဆီယံနိုင်ငံများကို လေ့လာပြီး ကိုယ်တိုင်အလည်သွားသလီု ခံစားစေနိုင်)\n\nအထက်ပါ စာအုပ်များ ထွက်ရှိထားပါတယ်။ အဆိုပါ စာအုပ်များကို ebook (pdf) အဖြစ် ဝယ်နိုင်ပါပြီ။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဟုတ်ကဲ့ ဘာစာအုပ်ဝယ်ချင်တာလဲ ခင်ဗျ...။ Kreative Kid’s Lab ရဲ့ စာအုပ်စာရင်းတွေအနေနဲ့က သင်ကြားရေးနှင့် ဖတ်စရာ ဆိုပြီး နှစ်ပိုင်းရှိပါတယ်။\n\nသင်ကြားရေးအတွက်ဆိုရင် \n\n📖Pre KG English - Student Books ( ၃ အုပ်ထွက်ရှိပြီး)\n📖English Bridge Student book+ Teacher Guide (ဆယ်ကျော်သက်အတွက် Phonics အခြေခံကောင်း)\n📖Spoken English (ဆယ်ကျော်သက်နှင့်လူငယ်များအတွက် အခြေခံကောင်း)\n📖Computer Science Course Student Books ( အသက် ၆ နှစ်မှ စသင်သည့် မြန်မာနိုင်ငံရဲ့ အကောင်းဆုံး ကွန်ပျူတာသိပ္ပံသင်ရိုး) Level 4 အထိ ထွက်ရှိပြီး\n📖၂ နှစ်မှ ၈ နှစ်ကြား Phonics သင်နည်းလမ်းညွှန် (မိဘများနှင့် ဆရာဆရာမများအတွက်)\n\nဖတ်စာနှင့်ပတ်သက်ရင်\n📖 Start to Read (၆ အုပ်) (Phonics သင်ပြီးစ ကလေးများအတွက် အလွန်ကောင်း)\n📖 Reading Fun (၆ အုပ်) ( စာပိုဒ်တိုတိုလေးတွေ နဲ့ ပျော်ပျော်ရွှင်ရွှင်နှင့် Reading to Comprehensions အတွက်ပေါင်းကူးဖြစ်စေ)\n📖 Read & Learn Series (၆ အုပ်) (စာဖတ်ခြင်းကတဆင့် မိမိအကြောင်းကနေ Essay တိုလေးတွေကို လေ့ကျင့်စေနိုင်)\n📖 Little Explore Series (၆ အုပ်) (မြန်မာနိုင်ငံမှစတင်ပြီး အာဆီယံနိုင်ငံများကို လေ့လာပြီး ကိုယ်တိုင်အလည်သွားသလီု ခံစားစေနိုင်)\n\nအထက်ပါ စာအုပ်များ ထွက်ရှိထားပါတယ်။ အဆိုပါ စာအုပ်များကို ebook (pdf) အဖြစ် ဝယ်နိုင်ပါပြီ။"
     },
     {
         "Keywords":[
             "share",
             "တယ်"
         ],
-        "answer_my":"ဟုတ်ကဲ့ Share ပေးတဲ့အတွက်ကျေးဇူးတင်ပါတယ် ခင်ဗျာ။ ဘယ်စာအုပ်လေးကို အခမဲ့ဖတ်ရှုလေ့လာချင်လဲခင်ဗျ။ စာအုပ်နာမည်လေးကို ပြောပေးပါနော်။ တခါထဲ ဖတ်ချင်ရင်လည်း စာအုပ်နာမည်လေးနဲ့အတူ flipbook လို့ စာပို့ပေးပါနော်။ ဥပမာ- The Pal Cat flipbook လို့ ပို့ပေးပါ။ လင့်ပြန်ပို့ပေးပါမယ်။",
-        "answer_th":"",
-        "answer_en":""
+        "answer":"ဟုတ်ကဲ့ Share ပေးတဲ့အတွက်ကျေးဇူးတင်ပါတယ် ခင်ဗျာ။ ဘယ်စာအုပ်လေးကို အခမဲ့ဖတ်ရှုလေ့လာချင်လဲခင်ဗျ။ စာအုပ်နာမည်လေးကို ပြောပေးပါနော်။ တခါထဲ ဖတ်ချင်ရင်လည်း စာအုပ်နာမည်လေးနဲ့အတူ flipbook လို့ စာပို့ပေးပါနော်။ ဥပမာ- The Pal Cat flipbook လို့ ပို့ပေးပါ။ လင့်ပြန်ပို့ပေးပါမယ်။"
     }
 ]
