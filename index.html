@@ -5,208 +5,706 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Kreative Kid's Lab - Chatbot</title>
     <style>
-        /* 📱 Messenger Style CSS - Full Screen */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html, body { height: 100%; overflow: hidden; background: #1a1a2e; }
+        /* ... (မူရင်း CSS အတိုင်းထားပါ) ... */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,
         body {
-            font-family: 'Pyidaungsu', 'Myanmar Text', 'Noto Sans Myanmar', 'Arial', sans-serif;
-            display: flex; justify-content: center; align-items: center;
-            margin: 0; padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: #1a1a2e;
+        }
+        body {
+            font-family: 'Pyidaungsu', 'Myanmar Text', 'Noto Sans Myanmar', 'Noto Sans Thai', 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
         }
 
         .chat-container {
-            width: 100%; height: 100vh; height: 100dvh;
-            max-width: 100%; max-height: 100vh; max-height: 100dvh;
-            background: #fff; display: flex; flex-direction: column;
-            overflow: hidden; position: relative;
+            width: 100%;
+            height: 100vh;
+            height: 100dvh;
+            max-width: 100%;
+            max-height: 100vh;
+            max-height: 100dvh;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
         }
 
-        /* PC Full Screen */
         @media (min-width: 769px) {
-            body { background: #1a1a2e; padding: 0; }
-            .chat-container { max-width: 100%; max-height: 100vh; border-radius: 0; height: 100vh; box-shadow: none; }
-            .chat-header { padding: 18px 24px !important; min-height: 64px; }
-            .profile-pic { width: 48px !important; height: 48px !important; font-size: 20px !important; }
-            .header-info h3 { font-size: 18px !important; }
-            .header-info p { font-size: 13px !important; }
-            .message { font-size: 15px !important; padding: 12px 16px !important; max-width: 70% !important; }
-            .chat-input { padding: 14px 20px !important; min-height: 64px; }
-            .chat-input input { font-size: 15px !important; padding: 14px 20px !important; height: 48px; }
-            .chat-input button { font-size: 15px !important; padding: 14px 28px !important; height: 48px; }
-            .lang-select { font-size: 13px !important; padding: 6px 14px !important; padding-right: 28px !important; }
-            .contact-btn, .clear-all-btn, .stop-speech-btn { font-size: 13px !important; padding: 6px 16px !important; }
-            .chat-messages { padding: 20px 24px !important; }
-            .message:hover { opacity: 0.85; transform: scale(1.01); transition: all 0.15s ease; }
-            .chat-messages::-webkit-scrollbar { width: 8px; }
-            .chat-messages::-webkit-scrollbar-thumb { background: #b3b3b3; border-radius: 10px; }
-            .chat-messages::-webkit-scrollbar-track { background: transparent; }
+            body {
+                background: #1a1a2e;
+                padding: 0;
+            }
+            .chat-container {
+                max-width: 100%;
+                max-height: 100vh;
+                border-radius: 0;
+                height: 100vh;
+                box-shadow: none;
+            }
+            .chat-header {
+                padding: 18px 24px !important;
+                min-height: 64px;
+            }
+            .profile-pic {
+                width: 48px !important;
+                height: 48px !important;
+                font-size: 20px !important;
+            }
+            .header-info h3 {
+                font-size: 18px !important;
+            }
+            .header-info p {
+                font-size: 13px !important;
+            }
+            .message {
+                font-size: 15px !important;
+                padding: 12px 16px !important;
+                max-width: 70% !important;
+            }
+            .chat-input {
+                padding: 14px 20px !important;
+                min-height: 64px;
+            }
+            .chat-input input {
+                font-size: 15px !important;
+                padding: 14px 20px !important;
+                height: 48px;
+            }
+            .chat-input button {
+                font-size: 15px !important;
+                padding: 14px 28px !important;
+                height: 48px;
+            }
+            .contact-btn,
+            .clear-all-btn,
+            .speaker-btn {
+                font-size: 18px !important;
+                padding: 6px 12px !important;
+                width: 42px !important;
+                height: 42px !important;
+            }
+            .close-btn {
+                font-size: 18px !important;
+                padding: 6px 12px !important;
+                width: 42px !important;
+                height: 42px !important;
+            }
+            .chat-messages {
+                padding: 20px 24px !important;
+            }
+            .message:hover {
+                opacity: 0.85;
+                transform: scale(1.01);
+                transition: all 0.15s ease;
+            }
+            .chat-messages::-webkit-scrollbar {
+                width: 8px;
+            }
+            .chat-messages::-webkit-scrollbar-thumb {
+                background: #b3b3b3;
+                border-radius: 10px;
+            }
+            .chat-messages::-webkit-scrollbar-track {
+                background: transparent;
+            }
         }
 
-        /* Mobile Portrait */
         @media (max-width: 768px) and (orientation: portrait) {
-            .chat-container { max-width: 100%; max-height: 100vh; max-height: 100dvh; border-radius: 0; height: 100vh; height: 100dvh; }
-            .chat-header { padding: 12px 14px; min-height: 52px; }
-            .profile-pic { width: 38px; height: 38px; font-size: 16px; }
-            .header-info h3 { font-size: 14px; }
-            .header-info p { font-size: 10px; }
-            .message { font-size: 13px; padding: 8px 12px; max-width: 82%; }
-            .chat-input { padding: 8px 12px; min-height: 48px; }
-            .chat-input input { font-size: 13px; padding: 10px 14px; height: 40px; }
-            .chat-input button { font-size: 13px; padding: 10px 16px; height: 40px; }
-            .chat-messages { padding: 12px 14px; }
-            .lang-select { font-size: 10px; padding: 4px 8px; padding-right: 18px !important; }
-            .contact-btn, .clear-all-btn, .stop-speech-btn { font-size: 10px; padding: 4px 10px; }
+            .chat-container {
+                max-width: 100%;
+                max-height: 100vh;
+                max-height: 100dvh;
+                border-radius: 0;
+                height: 100vh;
+                height: 100dvh;
+            }
+            .chat-header {
+                padding: 12px 14px;
+                min-height: 52px;
+            }
+            .profile-pic {
+                width: 38px;
+                height: 38px;
+                font-size: 16px;
+            }
+            .header-info h3 {
+                font-size: 14px;
+            }
+            .header-info p {
+                font-size: 10px;
+            }
+            .message {
+                font-size: 13px;
+                padding: 8px 12px;
+                max-width: 82%;
+            }
+            .chat-input {
+                padding: 8px 12px;
+                min-height: 48px;
+            }
+            .chat-input input {
+                font-size: 13px;
+                padding: 10px 14px;
+                height: 40px;
+            }
+            .chat-input button {
+                font-size: 13px;
+                padding: 10px 16px;
+                height: 40px;
+            }
+            .chat-messages {
+                padding: 12px 14px;
+            }
+            .contact-btn,
+            .clear-all-btn,
+            .speaker-btn {
+                font-size: 16px !important;
+                padding: 4px 8px !important;
+                width: 36px !important;
+                height: 36px !important;
+            }
+            .close-btn {
+                font-size: 16px !important;
+                padding: 4px 8px !important;
+                width: 36px !important;
+                height: 36px !important;
+            }
         }
 
-        /* Mobile Landscape */
         @media (max-width: 768px) and (orientation: landscape) {
-            .chat-container { max-width: 100%; max-height: 100vh; max-height: 100dvh; height: 100vh; height: 100dvh; border-radius: 0; }
-            .chat-header { padding: 6px 12px !important; min-height: 40px !important; }
-            .profile-pic { width: 28px !important; height: 28px !important; font-size: 12px !important; }
-            .header-info h3 { font-size: 12px !important; }
-            .header-info p { font-size: 9px !important; display: none; }
-            .chat-messages { padding: 6px 12px !important; }
-            .message { font-size: 12px !important; padding: 6px 10px !important; max-width: 75% !important; }
-            .message .time { font-size: 8px !important; }
-            .chat-input { padding: 4px 10px !important; min-height: 36px !important; }
-            .chat-input input { font-size: 12px !important; padding: 6px 12px !important; height: 30px !important; border-radius: 20px !important; }
-            .chat-input button { font-size: 12px !important; padding: 6px 14px !important; height: 30px !important; border-radius: 20px !important; }
-            .lang-select { font-size: 9px !important; padding: 2px 6px !important; padding-right: 16px !important; border-radius: 12px !important; }
-            .contact-btn, .clear-all-btn, .stop-speech-btn { font-size: 9px !important; padding: 2px 8px !important; border-radius: 12px !important; min-height: 24px !important; }
-            .typing-indicator { padding: 5px 10px !important; }
-            .typing-indicator span { width: 5px !important; height: 5px !important; }
-            .delete-confirm-box { padding: 16px 20px !important; max-width: 280px !important; }
-            .delete-confirm-box h3 { font-size: 14px !important; }
-            .delete-confirm-box p { font-size: 12px !important; }
-            .delete-confirm-buttons button { padding: 6px 18px !important; font-size: 12px !important; min-width: 60px !important; }
+            .chat-container {
+                max-width: 100%;
+                max-height: 100vh;
+                max-height: 100dvh;
+                height: 100vh;
+                height: 100dvh;
+                border-radius: 0;
+            }
+            .chat-header {
+                padding: 6px 12px !important;
+                min-height: 40px !important;
+            }
+            .profile-pic {
+                width: 28px !important;
+                height: 28px !important;
+                font-size: 12px !important;
+            }
+            .header-info h3 {
+                font-size: 12px !important;
+            }
+            .header-info p {
+                font-size: 9px !important;
+                display: none;
+            }
+            .chat-messages {
+                padding: 6px 12px !important;
+            }
+            .message {
+                font-size: 12px !important;
+                padding: 6px 10px !important;
+                max-width: 75% !important;
+            }
+            .message .time {
+                font-size: 8px !important;
+            }
+            .chat-input {
+                padding: 4px 10px !important;
+                min-height: 36px !important;
+            }
+            .chat-input input {
+                font-size: 12px !important;
+                padding: 6px 12px !important;
+                height: 30px !important;
+                border-radius: 20px !important;
+            }
+            .chat-input button {
+                font-size: 12px !important;
+                padding: 6px 14px !important;
+                height: 30px !important;
+                border-radius: 20px !important;
+            }
+            .contact-btn,
+            .clear-all-btn,
+            .speaker-btn {
+                font-size: 14px !important;
+                padding: 2px 6px !important;
+                width: 28px !important;
+                height: 28px !important;
+                min-height: 24px !important;
+            }
+            .close-btn {
+                font-size: 14px !important;
+                padding: 2px 6px !important;
+                width: 28px !important;
+                height: 28px !important;
+                min-height: 24px !important;
+            }
+            .typing-indicator {
+                padding: 5px 10px !important;
+            }
+            .typing-indicator span {
+                width: 5px !important;
+                height: 5px !important;
+            }
+            .delete-confirm-box {
+                padding: 16px 20px !important;
+                max-width: 280px !important;
+            }
+            .delete-confirm-box h3 {
+                font-size: 14px !important;
+            }
+            .delete-confirm-box p {
+                font-size: 12px !important;
+            }
+            .delete-confirm-buttons button {
+                padding: 6px 18px !important;
+                font-size: 12px !important;
+                min-width: 60px !important;
+            }
         }
 
-        /* Header */
         .chat-header {
             background: #075e54;
-            display: flex; align-items: center; gap: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
             border-bottom: 1px solid #054740;
-            flex-shrink: 0; z-index: 10; flex-wrap: nowrap;
+            flex-shrink: 0;
+            z-index: 10;
+            flex-wrap: nowrap;
             min-height: var(--header-height, 56px);
+            touch-action: pan-y;
         }
         .profile-pic {
-            border-radius: 50%; background: #25d366;
-            display: flex; align-items: center; justify-content: center;
-            color: white; font-weight: bold; flex-shrink: 0;
+            border-radius: 50%;
+            background: #25d366;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            flex-shrink: 0;
         }
-        .header-info { flex: 1; color: white; min-width: 0; overflow: hidden; }
-        .header-info h3 { font-weight: 600; margin: 0; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .header-info p { opacity: 0.8; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        .header-right { display: flex; align-items: center; gap: 5px; flex-shrink: 0; flex-wrap: nowrap; }
-
-        .lang-select {
-            background: rgba(255,255,255,0.2); color: white; border: none;
-            border-radius: 16px; font-family: inherit; cursor: pointer;
-            outline: none; font-weight: 500;
-            appearance: none; -webkit-appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='white' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 6px center; background-size: 10px 6px;
+        .header-info {
+            flex: 1;
+            color: white;
+            min-width: 0;
+            overflow: hidden;
         }
-        .lang-select option { background: #075e54; color: white; }
+        .header-info h3 {
+            font-weight: 600;
+            margin: 0;
+            line-height: 1.2;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .header-info p {
+            opacity: 0.8;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            flex-shrink: 0;
+            flex-wrap: nowrap;
+        }
 
-        .contact-btn { background: #25d366; color: white; border: none; border-radius: 16px; font-family: inherit; cursor: pointer; transition: background 0.2s; white-space: nowrap; font-weight: 600; }
-        .contact-btn:hover { background: #1da851; }
-        .clear-all-btn { background: rgba(255,255,255,0.2); color: white; border: none; border-radius: 16px; font-family: inherit; cursor: pointer; transition: background 0.2s; white-space: nowrap; }
-        .clear-all-btn:hover { background: rgba(255,255,255,0.35); }
-        .stop-speech-btn { background: rgba(255,200,0,0.3); color: white; border: none; border-radius: 16px; font-family: inherit; cursor: pointer; transition: background 0.2s; white-space: nowrap; }
-        .stop-speech-btn:hover { background: rgba(255,200,0,0.5); }
+        .contact-btn {
+            background: #25d366;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .contact-btn:hover {
+            background: #1da851;
+        }
+        .clear-all-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .clear-all-btn:hover {
+            background: rgba(255, 255, 255, 0.35);
+        }
 
-        /* Messages */
-        .chat-messages { flex: 1; overflow-y: auto; background: #ece5dd; display: flex; flex-direction: column; gap: 3px; -webkit-overflow-scrolling: touch; }
+        .speaker-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            font-size: 18px;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .speaker-btn:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+        .speaker-btn.muted {
+            background: rgba(255, 80, 80, 0.3);
+        }
+        .speaker-btn.muted:hover {
+            background: rgba(255, 80, 80, 0.5);
+        }
+
+        .close-btn {
+            background: rgba(255, 80, 80, 0.3);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            font-size: 16px;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+        .close-btn:hover {
+            background: rgba(255, 80, 80, 0.6);
+            transform: scale(1.1);
+        }
+        .close-btn:active {
+            transform: scale(0.9);
+        }
+
+        .swipe-indicator {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 2px;
+            margin-top: 8px;
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .swipe-indicator {
+                display: block;
+            }
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            background: #ece5dd;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            -webkit-overflow-scrolling: touch;
+        }
         .message {
-            border-radius: 12px; line-height: 1.5; word-wrap: break-word;
-            margin-bottom: 2px; position: relative; clear: both;
-            cursor: pointer; transition: opacity 0.2s, transform 0.15s ease;
-            user-select: none; animation: messageIn 0.2s ease;
+            border-radius: 12px;
+            line-height: 1.5;
+            word-wrap: break-word;
+            margin-bottom: 2px;
+            position: relative;
+            clear: both;
+            cursor: pointer;
+            transition: opacity 0.2s, transform 0.15s ease;
+            user-select: none;
+            animation: messageIn 0.2s ease;
         }
-        @keyframes messageIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
-        .message:hover { opacity: 0.85; }
-        .message.user { background: #dcf8c6; align-self: flex-end; border-bottom-right-radius: 2px; color: #1a1a1a; }
-        .message.bot { background: #ffffff; align-self: flex-start; border-bottom-left-radius: 2px; color: #1a1a1a; box-shadow: 0 1px 2px rgba(0,0,0,0.08); }
-        .message.deleted { background: transparent !important; color: #999 !important; font-style: italic; cursor: default; box-shadow: none !important; padding: 5px 10px; }
-        .message.deleted:hover { opacity: 1; transform: none !important; }
-        .message .time { color: #8a8a8a; margin-top: 3px; display: block; text-align: right; font-size: 9px; }
-        .message.deleted .time { color: #bbb; }
+        @keyframes messageIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .message:hover {
+            opacity: 0.85;
+        }
+        .message.user {
+            background: #dcf8c6;
+            align-self: flex-end;
+            border-bottom-right-radius: 2px;
+            color: #1a1a1a;
+        }
+        .message.bot {
+            background: #ffffff;
+            align-self: flex-start;
+            border-bottom-left-radius: 2px;
+            color: #1a1a1a;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+        }
 
-        /* Input */
-        .chat-input { background: #f0f0f0; display: flex; gap: 8px; align-items: center; border-top: 1px solid #ddd; flex-shrink: 0; min-height: var(--input-height, 52px); }
-        .chat-input input { flex: 1; border: none; border-radius: 25px; font-family: inherit; outline: none; background: #fff; box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); min-width: 0; }
-        .chat-input input::placeholder { color: #999; }
-        .chat-input input:focus { box-shadow: inset 0 1px 4px rgba(7,94,84,0.3); }
-        .chat-input button { background: #075e54; border: none; color: white; border-radius: 25px; font-weight: 600; cursor: pointer; transition: background 0.2s, transform 0.1s; font-family: inherit; white-space: nowrap; flex-shrink: 0; }
-        .chat-input button:hover { background: #054740; }
-        .chat-input button:active { transform: scale(0.95); }
+        .message.deleted {
+            background: transparent !important;
+            color: #999 !important;
+            font-style: italic;
+            cursor: pointer !important;
+            box-shadow: none !important;
+            padding: 5px 10px;
+            opacity: 0.7;
+        }
+        .message.deleted:hover {
+            opacity: 1;
+            transform: none !important;
+        }
 
-        /* Typing Indicator */
-        .typing-indicator { display: none; align-self: flex-start; background: #ffffff; padding: 10px 16px; border-radius: 18px; border-bottom-left-radius: 4px; box-shadow: 0 1px 2px rgba(0,0,0,0.08); margin-bottom: 3px; }
-        .typing-indicator span { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #8a8a8a; margin: 0 2px; animation: typing 1.4s infinite both; }
-        .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
-        .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
-        @keyframes typing { 0% { opacity: 0.3; transform: scale(0.9); } 50% { opacity: 1; transform: scale(1.2); } 100% { opacity: 0.3; transform: scale(0.9); } }
+        .message .time {
+            color: #8a8a8a;
+            margin-top: 3px;
+            display: block;
+            text-align: right;
+            font-size: 9px;
+        }
+        .message.deleted .time {
+            color: #bbb;
+        }
 
-        /* Delete Overlay */
-        .delete-confirm-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); justify-content: center; align-items: center; z-index: 1000; animation: fadeIn 0.2s ease; }
-        .delete-confirm-overlay.active { display: flex; }
-        .delete-confirm-box { background: white; border-radius: 16px; padding: 24px 28px; max-width: 340px; width: 90%; text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.3); animation: scaleIn 0.25s ease; }
-        .delete-confirm-box h3 { font-size: 17px; color: #1a1a1a; margin-bottom: 6px; font-weight: 600; }
-        .delete-confirm-box p { font-size: 14px; color: #666; margin-bottom: 16px; line-height: 1.5; }
-        .delete-confirm-buttons { display: flex; gap: 10px; justify-content: center; }
-        .delete-confirm-buttons button { padding: 10px 28px; border: none; border-radius: 25px; font-size: 14px; font-family: inherit; font-weight: 600; cursor: pointer; transition: all 0.2s; min-width: 100px; }
-        .delete-confirm-buttons .btn-cancel { background: #f0f0f0; color: #333; }
-        .delete-confirm-buttons .btn-cancel:hover { background: #e0e0e0; }
-        .delete-confirm-buttons .btn-delete { background: #dc3545; color: white; }
-        .delete-confirm-buttons .btn-delete:hover { background: #c82333; }
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        @keyframes scaleIn { from { transform: scale(0.9); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+        .chat-input {
+            background: #f0f0f0;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            border-top: 1px solid #ddd;
+            flex-shrink: 0;
+            min-height: var(--input-height, 52px);
+        }
+        .chat-input input {
+            flex: 1;
+            border: none;
+            border-radius: 25px;
+            font-family: inherit;
+            outline: none;
+            background: #fff;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+            min-width: 0;
+        }
+        .chat-input input::placeholder {
+            color: #999;
+        }
+        .chat-input input:focus {
+            box-shadow: inset 0 1px 4px rgba(7, 94, 84, 0.3);
+        }
+        .chat-input button {
+            background: #075e54;
+            border: none;
+            color: white;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            font-family: inherit;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .chat-input button:hover {
+            background: #054740;
+        }
+        .chat-input button:active {
+            transform: scale(0.95);
+        }
 
-        /* Fullscreen Button */
-        .fullscreen-btn { background: rgba(255,255,255,0.2); color: white; border: none; border-radius: 16px; font-family: inherit; cursor: pointer; transition: background 0.2s; white-space: nowrap; font-size: 13px; padding: 6px 12px; }
-        .fullscreen-btn:hover { background: rgba(255,255,255,0.35); }
-        @media (max-width: 768px) { .fullscreen-btn { display: none !important; } }
+        .typing-indicator {
+            display: none;
+            align-self: flex-start;
+            background: #ffffff;
+            padding: 10px 16px;
+            border-radius: 18px;
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+            margin-bottom: 3px;
+        }
+        .typing-indicator span {
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #8a8a8a;
+            margin: 0 2px;
+            animation: typing 1.4s infinite both;
+        }
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        @keyframes typing {
+            0% {
+                opacity: 0.3;
+                transform: scale(0.9);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+            100% {
+                opacity: 0.3;
+                transform: scale(0.9);
+            }
+        }
 
-        /* Safe Area */
-        @supports (padding: max(0px)) { .chat-container { padding-left: max(0px, env(safe-area-inset-left)); padding-right: max(0px, env(safe-area-inset-right)); padding-top: max(0px, env(safe-area-inset-top)); padding-bottom: max(0px, env(safe-area-inset-bottom)); } }
+        .delete-confirm-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            animation: fadeIn 0.2s ease;
+        }
+        .delete-confirm-overlay.active {
+            display: flex;
+        }
+        .delete-confirm-box {
+            background: white;
+            border-radius: 16px;
+            padding: 24px 28px;
+            max-width: 340px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: scaleIn 0.25s ease;
+        }
+        .delete-confirm-box h3 {
+            font-size: 17px;
+            color: #1a1a1a;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        .delete-confirm-box p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+        .delete-confirm-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .delete-confirm-buttons button {
+            padding: 10px 28px;
+            border: none;
+            border-radius: 25px;
+            font-size: 14px;
+            font-family: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            min-width: 100px;
+        }
+        .delete-confirm-buttons .btn-cancel {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .delete-confirm-buttons .btn-cancel:hover {
+            background: #e0e0e0;
+        }
+        .delete-confirm-buttons .btn-delete {
+            background: #dc3545;
+            color: white;
+        }
+        .delete-confirm-buttons .btn-delete:hover {
+            background: #c82333;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes scaleIn {
+            from {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @supports (padding: max(0px)) {
+            .chat-container {
+                padding-left: max(0px, env(safe-area-inset-left));
+                padding-right: max(0px, env(safe-area-inset-right));
+                padding-top: max(0px, env(safe-area-inset-top));
+                padding-bottom: max(0px, env(safe-area-inset-bottom));
+            }
+        }
     </style>
 </head>
 <body>
 
-    <div class="chat-container">
-        <!-- Header -->
-        <div class="chat-header">
+    <div class="chat-container" id="chatContainer">
+        <div class="swipe-indicator"></div>
+
+        <div class="chat-header" id="chatHeader">
             <div class="profile-pic">📚</div>
             <div class="header-info">
                 <h3>Kreative Kid's Lab</h3>
                 <p id="statusText">🔄 စတင်နေပါသည်...</p>
             </div>
             <div class="header-right">
-                <select class="lang-select" id="langSelect" onchange="updateLanguage()">
-                    <option value="my-MM">🇲🇲 မြန်မာ</option>
-                    <option value="th-TH">🇹🇭 ไทย</option>
-                    <option value="en-US">🇬🇧 English</option>
-                </select>
-                <button class="stop-speech-btn" onclick="stopSpeech()" title="အသံထွက်ရပ်ရန်">⏹</button>
+                <button class="speaker-btn" id="speakerBtn" onclick="toggleSpeech()" title="အသံဖွင့်/ပိတ်">🔊</button>
                 <button class="clear-all-btn" onclick="confirmClearAll()" title="အားလုံးဖျက်မည်">🗑️</button>
                 <button class="contact-btn" onclick="contactTeacher()" title="ဆရာထံဆက်သွယ်ရန်">📧</button>
-                <button class="fullscreen-btn" onclick="toggleFullScreen()" title="Full Screen">⛶</button>
+                <button class="close-btn" onclick="closeApp()" title="ပိတ်ရန်">✕</button>
             </div>
         </div>
 
-        <!-- Messages -->
         <div class="chat-messages" id="chatMessages"></div>
 
-        <!-- Input -->
         <div class="chat-input">
             <input type="text" id="userInput" placeholder="မေးခွန်းရိုက်ထည့်ပါ..." autofocus>
             <button onclick="handleQuestion()">Send ➤</button>
         </div>
     </div>
 
-    <!-- Delete Overlay -->
     <div class="delete-confirm-overlay" id="deleteOverlay">
         <div class="delete-confirm-box">
             <h3 id="deleteConfirmTitle">မက်ဆေ့ခ်ျကို ဖျက်မည်</h3>
@@ -223,27 +721,52 @@
         // 📊 1. Configuration
         // =============================================
 
-        // 🔧 ခင်ဗျားရဲ့ GitHub Raw URL ကို ဒီမှာ ထည့်ပါ
         const GITHUB_DATA_URL = 'https://raw.githubusercontent.com/KooLwin/chatbot/refs/heads/main/data.json';
-
         const STORAGE_KB_KEY = 'knowledge_base_data';
         const STORAGE_CHAT_KEY = 'chat_history_kkl';
+        const STORAGE_LAST_UPDATE_KEY = 'last_update_time';
 
         let knowledgeBase = [];
         let isDataLoaded = false;
+        let isSpeechMuted = false;
 
         // =============================================
-        // 📦 2. Default Knowledge Base (Fallback)
+        // 📂 2. Data Structure Explanation
         // =============================================
+        /*
+            📁 DATA STRUCTURE (data.json)
+            ==============================
+            
+            JSON Array တစ်ခုဖြစ်ပြီး Object များပါဝင်ပါသည်။
+            
+            [
+                {
+                    "keywords": ["keyword1", "keyword2", "keyword3"],
+                    "answer": "အဖြေစာသား"
+                },
+                {
+                    "keywords": ["ကွန်ပျူတာ", "အသုံးပြု"],
+                    "answer": "ကွန်ပျူတာကို ဤသို့အသုံးပြုပါ..."
+                }
+            ]
 
-        const defaultKnowledgeBase = [
-            { Keywords: ["မင်္ဂလာပါ"], answer_my: "မင်္ဂလာပါခင်ဗျာ..", answer_th: "မင်္ဂလာပါခင်ဗျာ..", answer_en: "မင်္ဂလာပါခင်ဗျာ.." },
-            { Keywords: ["အကြံပြု"], answer_my: "ကလေးအသက်ပေါ်မူတည်ပြီး အကြံပြုပေးပါမယ်။\n\n📌 ၂-၄နှစ် → Phonics သင်နည်းလမ်းညွှန် (မိဘအတွက်) + Pre KG English\n📌 ၅-၇နှစ် → Start to Read + Reading Fun\n📌 ၈-၁၀နှစ် → Read & Learn + Little Explore\n📌 ၁၀နှစ်အထက် → English Bridge + Spoken English + Computer Science\n\nကလေးအသက်ကို ပြောပါ၊ ပိုပြီးတိကျတဲ့ အကြံပြုချက် ရနိုင်ပါတယ်။", answer_th: "ကလေးအသက်ပေါ်မူတည်ပြီး အကြံပြုပေးပါမယ်။\n\n📌 ၂-၄နှစ် → Phonics သင်နည်းလမ်းညွှန် (မိဘအတွက်) + Pre KG English\n📌 ၅-၇နှစ် → Start to Read + Reading Fun\n📌 ၈-၁၀နှစ် → Read & Learn + Little Explore\n📌 ၁၀နှစ်အထက် → English Bridge + Spoken English + Computer Science\n\nကလေးအသက်ကို ပြောပါ၊ ပိုပြီးတိကျတဲ့ အကြံပြုချက် ရနိုင်ပါတယ်။", answer_en: "ကလေးအသက်ပေါ်မူတည်ပြီး အကြံပြုပေးပါမယ်။\n\n📌 ၂-၄နှစ် → Phonics သင်နည်းလမ်းညွှန် (မိဘအတွက်) + Pre KG English\n📌 ၅-၇နှစ် → Start to Read + Reading Fun\n📌 ၈-၁၀နှစ် → Read & Learn + Little Explore\n📌 ၁၀နှစ်အထက် → English Bridge + Spoken English + Computer Science\n\nကလေးအသက်ကို ပြောပါ၊ ပိုပြီးတိကျတဲ့ အကြံပြုချက် ရနိုင်ပါတယ်။" },
-            { Keywords: ["စာအုပ်", "စာရင်း"], answer_my: "Kreative Kid's Lab ရဲ့ စာအုပ်စာရင်းတွေ...\n\n📖 Pre KG English (၃အုပ်)\n📖 English Bridge (Student + Teacher Guide)\n📖 Spoken English\n📖 Computer Science (Level 1-4)\n📖 Phonics သင်နည်းလမ်းညွှန်\n📖 Start to Read (၆အုပ်)\n📖 Reading Fun (၆အုပ်)\n📖 Read & Learn (၆အုပ်)\n📖 Little Explore (၆အုပ်)", answer_th: "Kreative Kid's Lab ရဲ့ စုပ်စာရင်းတွေ...\n\n📖 Pre KG English (၃အုပ်)\n📖 English Bridge (Student + Teacher Guide)\n📖 Spoken English\n📖 Computer Science (Level 1-4)\n📖 Phonics သင်နည်းလမ်းညွှန်\n📖 Start to Read (၆အုပ်)\n📖 Reading Fun (၆အုပ်)\n📖 Read & Learn (၆အုပ်)\n📖 Little Explore (၆အုပ်)", answer_en: "Kreative Kid's Lab ရဲ့ စုပ်စာရင်းတွေ...\n\n📖 Pre KG English (၃အုပ်)\n📖 English Bridge (Student + Teacher Guide)\n📖 Spoken English\n📖 Computer Science (Level 1-4)\n📖 Phonics သင်နည်းလမ်းညွှန်\n📖 Start to Read (၆အုပ်)\n📖 Reading Fun (၆အုပ်)\n📖 Read & Learn (၆အုပ်)\n📖 Little Explore (၆အုပ်)" }
-        ];
+            📌 Keywords (စာသားများ)
+            - Array တစ်ခုဖြစ်ပြီး မေးခွန်းထဲမှာ ပါရမည့် စာသားများကို သတ်မှတ်ပါသည်။
+            - မေးခွန်းထဲမှာ ဤစာသားများ ပါဝင်ပါက သက်ဆိုင်ရာ အဖြေကို ပြန်ပေးပါမည်။
+            
+            📌 Answer (အဖြေ)
+            - မေးခွန်းနှင့် ကိုက်ညီပါက ပြန်ပေးမည့် အဖြေစာသား။
+            - HTML tags ( <br>, <b>, <span> ) များကို သုံးနိုင်ပါသည်။
+            
+            📝 ဥပမာ:
+            {
+                "keywords": ["မောက်စ်", "အသုံးပြုပုံ"],
+                "answer": "မောက်စ်ကို ညွှန်ပြရန် နှင့် ကလစ်နှိပ်ရန် အသုံးပြုပါသည်။"
+            }
+        */
 
         // =============================================
-        // 🔄 3. Load Knowledge Base with CORS fix
+        // 🔄 3. Load Knowledge Base (Local file only)
         // =============================================
 
         function updateStatus(text, isOnline = true) {
@@ -262,34 +785,93 @@
                     if (Array.isArray(parsed) && parsed.length > 0) {
                         knowledgeBase = parsed;
                         isDataLoaded = true;
-                        console.log('📦 Loaded from localStorage:', knowledgeBase.length, 'entries');
                         updateStatus('✅ ဒေတာ ရှိပါသည်');
                         return true;
                     }
-                } catch (e) { console.warn('⚠️ Failed to parse stored data'); }
+                } catch (e) {
+                    console.warn('⚠️ Failed to parse stored data');
+                }
             }
             return false;
         }
 
-        function loadDefaultData() {
-            knowledgeBase = [...defaultKnowledgeBase];
-            localStorage.setItem(STORAGE_KB_KEY, JSON.stringify(knowledgeBase));
-            isDataLoaded = true;
-            updateStatus('📝 ပုံသေဒေတာ');
-            console.log('📝 Using default knowledge base');
+        function saveToLocalStorage(data) {
+            try {
+                localStorage.setItem(STORAGE_KB_KEY, JSON.stringify(data));
+                localStorage.setItem(STORAGE_LAST_UPDATE_KEY, new Date().toISOString());
+                knowledgeBase = data;
+                isDataLoaded = true;
+                updateStatus('✅ ဒေတာ သိမ်းဆည်းပြီးပါပြီ');
+                return true;
+            } catch (e) {
+                console.warn('⚠️ Failed to save to localStorage:', e);
+                return false;
+            }
         }
 
-        async function loadFromGitHub() {
+        // 📂 Load from local data.json file (USING DIRECT FETCH)
+        async function loadFromLocalFile() {
             try {
-                updateStatus('🔄 စစ်ဆေးနေပါသည်...');
+                updateStatus('📂 ဒေသတွင်း data.json ကိုဖတ်နေပါသည်...');
 
-                if (!navigator.onLine) {
-                    updateStatus('📶 အင်တာနက်မရှိပါ', false);
-                    if (!loadFromLocalStorage()) loadDefaultData();
-                    return;
+                // Try to load from the same directory as the HTML file
+                const response = await fetch('data.json', {
+                    cache: 'no-store',
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status} - File not found or inaccessible`);
                 }
 
-                // Fetch with no-cache and timeout
+                const data = await response.json();
+
+                if (!Array.isArray(data) || data.length === 0) {
+                    throw new Error('Invalid data format - Expected array with objects');
+                }
+
+                // Validate data structure
+                let validCount = 0;
+                data.forEach((item, index) => {
+                    if (item.keywords && Array.isArray(item.keywords) && item.answer) {
+                        validCount++;
+                    } else {
+                        console.warn(`⚠️ Item ${index} has invalid structure:`, item);
+                    }
+                });
+
+                if (validCount === 0) {
+                    throw new Error('No valid items found in data.json');
+                }
+
+                // Save to localStorage
+                saveToLocalStorage(data);
+                console.log('📂 Loaded from local data.json:', data.length, 'entries,', validCount, 'valid');
+                addMessage(`📂 data.json မှ ဒေတာ ${data.length} ခုကို ဖတ်ပြီးပါပြီ။`, 'bot');
+                return true;
+
+            } catch (error) {
+                console.error('⚠️ Local file load failed:', error.message);
+                updateStatus('⚠️ data.json မတွေ့ပါ', false);
+                
+                // Show detailed error in chat
+                addMessage(`❌ data.json ဖိုင်ကို မဖတ်နိုင်ပါ။<br><br>🔍 အကြောင်းရင်း: ${error.message}<br><br>💡 ဖြေရှင်းနည်းများ:<br>1. data.json ဖိုင် ရှိမရှိ စစ်ဆေးပါ<br>2. JSON ဖိုင်ရဲ့ ပုံစံမှန်ကန်မှု စစ်ဆေးပါ<br>3. Web Server သုံး၍ Run ပါ (Live Server သို့မဟုတ် XAMPP)`, 'bot');
+                return false;
+            }
+        }
+
+        // 🌐 Load from GitHub (Auto Update)
+        async function loadFromGitHub() {
+            try {
+                if (!navigator.onLine) {
+                    updateStatus('📶 အင်တာနက်မရှိပါ', false);
+                    return false;
+                }
+
+                updateStatus('🔄 GitHub မှ စစ်ဆေးနေပါသည်...');
+
                 const controller = new AbortController();
                 const timeoutId = setTimeout(() => controller.abort(), 10000);
 
@@ -311,134 +893,236 @@
                     throw new Error('Invalid data format');
                 }
 
-                // ✅ Check if data has changed
-                const currentData = localStorage.getItem(STORAGE_KB_KEY);
-                const newDataStr = JSON.stringify(data);
+                // Check if data has changed
+                const saved = localStorage.getItem(STORAGE_KB_KEY);
+                let hasChanged = true;
 
-                if (currentData !== newDataStr) {
-                    knowledgeBase = data;
-                    localStorage.setItem(STORAGE_KB_KEY, newDataStr);
-                    isDataLoaded = true;
-                    updateStatus('✅ အသစ်ပြန်လည်ပြီးပါပြီ');
-                    console.log('🔄 Data updated from GitHub:', data.length, 'entries');
-                    addMessage('🔄 သင်ရိုးဒေတာကို အသစ်ပြန်လည်ပြီးပါပြီ။', 'bot');
-                } else {
-                    updateStatus('✅ ဒေတာ နောက်ဆုံးပေါ်ပါသည်');
-                    console.log('✅ Data is already up to date');
+                if (saved) {
+                    try {
+                        const savedData = JSON.parse(saved);
+                        if (JSON.stringify(savedData) === JSON.stringify(data)) {
+                            hasChanged = false;
+                            console.log('✅ Data is up to date (no changes)');
+                            updateStatus('✅ ဒေတာ နောက်ဆုံးပေါ်ဖြစ်ပါသည်');
+                            return false;
+                        }
+                    } catch (e) {}
                 }
+
+                if (hasChanged) {
+                    saveToLocalStorage(data);
+                    console.log('🔄 Data updated from GitHub:', data.length, 'entries');
+                    addMessage(`🔄 GitHub မှ သင်ရိုးဒေတာ ${data.length} ခုကို အသစ်ပြန်လည်ပြီးပါပြီ။`, 'bot');
+                    return true;
+                }
+
+                return false;
 
             } catch (error) {
                 console.warn('⚠️ GitHub load failed:', error.message);
-
                 if (error.name === 'AbortError') {
                     updateStatus('⏰ အချိန်ကုန်သွားပါပြီ', false);
                 } else {
-                    updateStatus('⚠️ ဒေတာရယူမရပါ', false);
+                    updateStatus('⚠️ GitHub မှရယူမရပါ', false);
                 }
+                return false;
+            }
+        }
 
-                // Fallback to localStorage or default
-                if (!loadFromLocalStorage()) {
-                    loadDefaultData();
-                }
+        // 🔄 Main load function
+        async function loadData() {
+            // Step 1: Try to load from localStorage first (fastest)
+            if (loadFromLocalStorage()) {
+                console.log('✅ Data loaded from localStorage');
+            }
+
+            // Step 2: Try to load from local data.json (MOST IMPORTANT)
+            const localLoaded = await loadFromLocalFile();
+
+            // Step 3: If local file loaded successfully, check GitHub for updates (if online)
+            if (localLoaded && navigator.onLine) {
+                setTimeout(async () => {
+                    await loadFromGitHub();
+                }, 2000);
+            }
+
+            // Step 4: If still no data, show error
+            if (!isDataLoaded) {
+                updateStatus('❌ ဒေတာမရှိပါ', false);
+                // Try one more time with a different approach
+                setTimeout(async () => {
+                    if (!isDataLoaded) {
+                        await loadFromLocalFile();
+                    }
+                }, 2000);
             }
         }
 
         // =============================================
-        // 🗣️ 4. TTS Functions
+        // 🗣️ 4. Auto-Detect Language TTS
         // =============================================
 
-        let currentLang = 'my-MM';
+        function detectLanguage(text) {
+            const myanmarRegex = /[\u1000-\u109F]/;
+            const thaiRegex = /[\u0E00-\u0E7F]/;
+            const englishRegex = /[a-zA-Z]/;
 
-        function updateLanguage() {
-            const select = document.getElementById('langSelect');
-            currentLang = select.value;
-            const langNames = { 'my-MM': 'မြန်မာ', 'th-TH': 'ไทย', 'en-US': 'English' };
-            addMessage(`🌐 ဘာသာစကားကို "${langNames[currentLang]}" သို့ ပြောင်းလိုက်ပါပြီ။`, 'bot');
+            if (myanmarRegex.test(text)) return 'my-MM';
+            else if (thaiRegex.test(text)) return 'th-TH';
+            else if (englishRegex.test(text)) return 'en-US';
+            return 'my-MM';
         }
 
         function speakText(text) {
+            if (isSpeechMuted) return;
             if (!('speechSynthesis' in window)) return;
+
             window.speechSynthesis.cancel();
+
             const cleanText = text.replace(/<[^>]*>/g, '').trim();
             if (!cleanText) return;
 
+            const lang = detectLanguage(cleanText);
+
             const utterance = new SpeechSynthesisUtterance(cleanText);
-            utterance.lang = currentLang;
+            utterance.lang = lang;
             utterance.rate = 0.9;
             utterance.pitch = 1.0;
             utterance.volume = 1.0;
 
             const voices = window.speechSynthesis.getVoices();
-            const matchingVoice = voices.find(voice => voice.lang.startsWith(currentLang.split('-')[0]));
-            if (matchingVoice) utterance.voice = matchingVoice;
+            const matchingVoice = voices.find(voice => voice.lang.startsWith(lang.split('-')[0]));
+            if (matchingVoice) {
+                utterance.voice = matchingVoice;
+            }
 
             window.speechSynthesis.speak(utterance);
+            console.log(`🗣️ Speaking (${lang}):`, cleanText.substring(0, 50) + '...');
         }
 
-        function stopSpeech() {
-            if ('speechSynthesis' in window) {
-                window.speechSynthesis.cancel();
-                addMessage('⏹ အသံထွက်ခြင်းကို ရပ်လိုက်ပါပြီ။', 'bot');
-            }
-        }
-
-        // =============================================
-        // 🖥️ 5. Full Screen Toggle
-        // =============================================
-
-        function toggleFullScreen() {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(err => console.warn('Full screen failed:', err));
+        function toggleSpeech() {
+            isSpeechMuted = !isSpeechMuted;
+            const btn = document.getElementById('speakerBtn');
+            if (isSpeechMuted) {
+                btn.textContent = '🔇';
+                btn.classList.add('muted');
+                if ('speechSynthesis' in window) {
+                    window.speechSynthesis.cancel();
+                }
             } else {
-                if (document.exitFullscreen) document.exitFullscreen();
+                btn.textContent = '🔊';
+                btn.classList.remove('muted');
             }
         }
 
-        document.addEventListener('fullscreenchange', function() {
-            const btn = document.querySelector('.fullscreen-btn');
-            if (btn) btn.textContent = document.fullscreenElement ? '⛶ ✕' : '⛶';
+        // =============================================
+        // ❌ 5. Close App
+        // =============================================
+
+        function closeApp() {
+            window.close();
+            if (!window.closed) {
+                if (window.navigator && window.navigator.standalone) {
+                    window.location.href = 'about:blank';
+                } else {
+                    try { window.location.href = 'about:blank'; } catch (e) { document.body.innerHTML = ''; }
+                }
+            }
+        }
+
+        // =============================================
+        // 👆 6. Swipe Down to Close
+        // =============================================
+
+        let touchStartY = 0,
+            touchStartX = 0,
+            isSwiping = false;
+        const SWIPE_THRESHOLD = 80;
+        const header = document.getElementById('chatHeader');
+
+        header.addEventListener('touchstart', function(e) {
+            touchStartY = e.touches[0].clientY;
+            touchStartX = e.touches[0].clientX;
+            isSwiping = true;
+        }, { passive: true });
+
+        header.addEventListener('touchmove', function(e) {
+            if (!isSwiping) return;
+            const deltaY = e.touches[0].clientY - touchStartY;
+            const deltaX = e.touches[0].clientX - touchStartX;
+            if (deltaY > SWIPE_THRESHOLD && Math.abs(deltaX) < 50) {
+                isSwiping = false;
+                closeApp();
+            }
+        }, { passive: true });
+
+        header.addEventListener('touchend', function() { isSwiping = false; }, { passive: true });
+
+        let mouseStartY = 0,
+            mouseStartX = 0,
+            isDragging = false;
+        header.addEventListener('mousedown', function(e) {
+            if (e.button !== 0) return;
+            mouseStartY = e.clientY;
+            mouseStartX = e.clientX;
+            isDragging = true;
         });
-
-        // =============================================
-        // 💬 6. Chat Functions
-        // =============================================
-
-        function getAnswerForLanguage(item) {
-            switch (currentLang) {
-                case 'th-TH':
-                    return item.answer_th || item.answer_my || item.answer_en || '';
-                case 'en-US':
-                    return item.answer_en || item.answer_my || item.answer_th || '';
-                default:
-                    return item.answer_my || item.answer_en || item.answer_th || '';
+        document.addEventListener('mousemove', function(e) {
+            if (!isDragging) return;
+            const deltaY = e.clientY - mouseStartY;
+            const deltaX = e.clientX - mouseStartX;
+            if (deltaY > SWIPE_THRESHOLD && Math.abs(deltaX) < 50) {
+                isDragging = false;
+                closeApp();
             }
-        }
+        });
+        document.addEventListener('mouseup', function() { isDragging = false; });
 
-        function findExactMatch(question) {
-            const normalized = question.toLowerCase();
+        // =============================================
+        // 💬 7. Chat Functions (Flexible Matching)
+        // =============================================
+
+        function findBestMatch(question) {
+            if (!knowledgeBase || knowledgeBase.length === 0) {
+                return null;
+            }
+
+            const normalizedQuestion = question.toLowerCase();
             let bestMatch = null;
-            let highestMatch = 0;
+            let highestScore = 0;
 
             for (let item of knowledgeBase) {
+                const keywords = item.keywords || [];
                 let matchCount = 0;
-                const keywords = item.Keywords || item.keywords || [];
+                let totalKeywords = keywords.length;
+
+                if (totalKeywords === 0) continue;
+
                 for (let keyword of keywords) {
-                    if (normalized.includes(keyword.toLowerCase())) {
+                    if (normalizedQuestion.includes(keyword.toLowerCase())) {
                         matchCount++;
                     }
                 }
-                if (matchCount === keywords.length && matchCount >= 1) {
-                    if (matchCount > highestMatch) {
-                        highestMatch = matchCount;
+
+                const score = (matchCount / totalKeywords);
+
+                if (matchCount >= 1 && score >= highestScore) {
+                    if (score === highestScore && bestMatch) {
+                        if (totalKeywords > (bestMatch.keywords || []).length) {
+                            bestMatch = item;
+                        }
+                    } else {
                         bestMatch = item;
+                        highestScore = score;
                     }
                 }
             }
+
             return bestMatch;
         }
 
         // =============================================
-        // 💾 7. Chat History
+        // 💾 8. Chat History
         // =============================================
 
         let deleteTarget = null;
@@ -489,7 +1173,7 @@
             }
 
             const welcomeMsg = createMessageHTML(
-                'မင်္ဂလာပါ 👋<br>Kreative Kid\'s Lab မှ ကြိုဆိုပါတယ်။<br>သင်ရိုးနဲ့ စာအုပ်တွေအကြောင်း မေးမြန်းနိုင်ပါတယ်။<br><span style="font-size:11px;color:#888;">💡 "စာအုပ်စာရင်း" လို့ရိုက်ပြီး အားလုံးကြည့်ပါ။</span>',
+                'မင်္ဂလာပါ 👋<br>Kreative Kid\'s Lab မှ ကြိုဆိုပါတယ်။<br><br>📁 <b>Data Structure အကြောင်း</b><br>data.json ဖိုင်မှာ ဤပုံစံအတိုင်း ထည့်သွင်းထားပါ:<br><br>📌 <code>{"keywords": ["စာသား1", "စာသား2"], "answer": "အဖြေ"}</code><br><br>💡 မေးခွန်းထဲမှာ ပါတဲ့ စာသားတွေနဲ့ ကိုက်ညီတဲ့ အဖြေကို ပြန်ပေးပါမယ်။',
                 'bot'
             );
             messagesDiv.innerHTML = welcomeMsg;
@@ -497,11 +1181,15 @@
         }
 
         // =============================================
-        // 🗑️ 8. Delete Functions
+        // 🗑️ 9. Delete Functions
         // =============================================
 
         function handleMessageClick(element) {
-            if (element.dataset.deleted === 'true') return;
+            if (element.dataset.deleted === 'true') {
+                element.remove();
+                saveChatHistory();
+                return;
+            }
             if (element.classList.contains('typing-indicator')) return;
 
             deleteTarget = element;
@@ -537,7 +1225,10 @@
                 deleteTarget.className = `message ${sender} deleted`;
                 deleteTarget.dataset.deleted = 'true';
                 deleteTarget.innerHTML = `ဤမက်ဆေ့ခ်ျကို ဖျက်လိုက်သည် <span class="time">${time}</span>`;
-                deleteTarget.onclick = null;
+                deleteTarget.onclick = function() {
+                    this.remove();
+                    saveChatHistory();
+                };
                 deleteTarget = null;
             } else if (deleteMode === 'all') {
                 const allMessages = messagesDiv.querySelectorAll('.message:not(.deleted)');
@@ -547,7 +1238,10 @@
                     msg.className = `message ${sender} deleted`;
                     msg.dataset.deleted = 'true';
                     msg.innerHTML = `ဤမက်ဆေ့ခ်ျကို ဖျက်လိုက်သည် <span class="time">${time}</span>`;
-                    msg.onclick = null;
+                    msg.onclick = function() {
+                        this.remove();
+                        saveChatHistory();
+                    };
                 });
             }
 
@@ -567,7 +1261,7 @@
         });
 
         // =============================================
-        // 💬 9. Main Chat Functions
+        // 💬 10. Main Chat Functions
         // =============================================
 
         function addMessage(text, sender) {
@@ -577,7 +1271,7 @@
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
             saveChatHistory();
 
-            if (sender === 'bot' && !text.startsWith('🌐') && !text.startsWith('⏹') && !text.startsWith('🔄')) {
+            if (sender === 'bot' && !text.startsWith('🔄') && !text.startsWith('📂') && !text.startsWith('❌')) {
                 setTimeout(() => speakText(text), 400);
             }
         }
@@ -615,24 +1309,34 @@
             setTimeout(() => {
                 hideTyping();
 
-                const result = findExactMatch(question);
+                if (!isDataLoaded || knowledgeBase.length === 0) {
+                    addMessage('❌ ဒေတာ မရှိသေးပါ။ ကျေးဇူးပြု၍ data.json ဖိုင်ကို စစ်ဆေးပါ။<br><br>📁 data.json ဖိုင်သည် ဤပုံစံအတိုင်း ဖြစ်ရပါမည်:<br><code>[{"keywords": ["စာသား"], "answer": "အဖြေ"}]</code>', 'bot');
+                    return;
+                }
+
+                const result = findBestMatch(question);
                 if (result) {
-                    const answer = getAnswerForLanguage(result);
-                    addMessage(answer, 'bot');
+                    addMessage(result.answer, 'bot');
                 } else {
-                    const suggestions = knowledgeBase.slice(0, 5).map(item => {
-                        const keys = item.Keywords || item.keywords || [];
+                    // Show suggestions from knowledge base
+                    let suggestions = knowledgeBase.slice(0, 5).map(item => {
+                        const keys = item.keywords || [];
                         return keys[0] || '';
                     }).filter(Boolean).join('၊ ');
+
+                    if (!suggestions) {
+                        suggestions = 'ကွန်ပျူတာ၊ မောက်စ်၊ ကီးဘုတ်';
+                    }
+
                     addMessage(
-                        `🙏 ကျေးဇူးပြု၍ ပိုမိုတိကျသော မေးခွန်းတစ်ခုကို မေးမြန်းပါ။<br><br>💡 အကြံပြုချက်များ: ${suggestions || 'မင်္ဂလာပါ, အကြံပြု, စာအုပ်စာရင်း'} စသည်တို့ကို မေးမြန်းနိုင်ပါတယ်။`,
+                        `🙏 ကျေးဇူးပြု၍ ပိုမိုတိကျသော မေးခွန်းတစ်ခုကို မေးမြန်းပါ။<br><br>💡 အကြံပြုချက်များ: ${suggestions}<br><br>📌 မေးခွန်းထဲမှာ ပါတဲ့ စာသားတွေနဲ့ ကိုက်ညီမှု ရှိအောင် မေးပါ။`,
                         'bot');
                 }
             }, 500 + Math.random() * 600);
         }
 
         // =============================================
-        // 📧 10. Contact Teacher
+        // 📧 11. Contact Teacher
         // =============================================
 
         function contactTeacher() {
@@ -644,17 +1348,17 @@
         }
 
         // =============================================
-        // 🔄 11. Manual Update (Double-click header)
+        // 🔄 12. Manual Update (Double-click header)
         // =============================================
 
         document.querySelector('.chat-header').addEventListener('dblclick', function() {
             if (confirm('ဒေတာကို ပြန်လည်စစ်ဆေး အသစ်ပြုပြင်မှာလား?')) {
-                loadFromGitHub();
+                loadData();
             }
         });
 
         // =============================================
-        // ⌨️ 12. Enter Key & Load
+        // ⌨️ 13. Enter Key
         // =============================================
 
         document.getElementById('userInput').addEventListener('keypress', function(e) {
@@ -665,40 +1369,58 @@
         });
 
         // =============================================
-        // 🚀 13. Initialize
+        // 🚀 14. Initialize
         // =============================================
 
         window.addEventListener('load', function() {
             loadChatHistory();
+            
+            // Show data structure info
+            console.log('📁 Data Structure:');
+            console.log('  [');
+            console.log('    {');
+            console.log('      "keywords": ["စာသား1", "စာသား2", ...],');
+            console.log('      "answer": "အဖြေစာသား"');
+            console.log('    }');
+            console.log('  ]');
 
-            // Load data: try localStorage first, then GitHub
-            if (!loadFromLocalStorage()) {
-                loadDefaultData();
-            }
+            // Load data
+            loadData();
 
-            // Then check GitHub for updates (async)
-            setTimeout(() => {
-                loadFromGitHub();
-            }, 800);
-
+            // Pre-load TTS voices
             if ('speechSynthesis' in window) {
                 window.speechSynthesis.getVoices();
             }
 
             document.getElementById('userInput').focus();
 
+            // Online/Offline events
             window.addEventListener('online', function() {
                 updateStatus('📶 အင်တာနက်ပြန်ရပါပြီ', true);
-                setTimeout(() => loadFromGitHub(), 1000);
+                setTimeout(async () => {
+                    if (isDataLoaded) {
+                        await loadFromGitHub();
+                    }
+                }, 2000);
             });
 
             window.addEventListener('offline', function() {
                 updateStatus('📶 အင်တာနက်မရှိပါ', false);
             });
+
+            // Auto update check every 10 minutes (if online and data loaded)
+            setInterval(async () => {
+                if (navigator.onLine && isDataLoaded) {
+                    await loadFromGitHub();
+                }
+            }, 600000); // 10 minutes
         });
 
         console.log('✅ KKL Chatbot is ready!');
+        console.log('📂 Data file: data.json (same directory)');
         console.log('🌐 GitHub URL:', GITHUB_DATA_URL);
+        console.log('💾 Data cached in localStorage');
+        console.log('📚 Total entries:', knowledgeBase.length);
     </script>
 
 </body>
